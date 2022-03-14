@@ -1,0 +1,26 @@
+state={
+	id=891
+	name="STATE_891"
+	manpower = 295020
+
+	state_category = town
+
+	history={
+		owner = POL
+		victory_points = {
+			402 1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = POL
+	}
+
+	provinces={
+		402 524 12562 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,3680 @@
+########################################
+# Additional Kovas' States Rework events
+########################################
+
+add_namespace = KSR_events
+
+# Capital of Austria-Hungary
+country_event = {
+	id = KSR_events.1
+	title = KSR_events.1.t
+	desc = KSR_events.1.d
+	picture = GFX_report_event_usa_election_generic
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.1.a
+		ai_chance = {
+			factor = 200
+		}
+		effect_tooltip = {
+			set_capital = { state = 4 }
+		}
+		
+		hidden_effect = { 
+			set_capital = { state = 4 remember_old_capital = no }
+		}		
+		
+	}
+	option = {
+		name = KSR_events.1.b
+		ai_chance = {
+			factor = 20
+		}
+		effect_tooltip = {
+			set_capital = { state = 43 }
+		}
+		
+		hidden_effect = { 
+			set_capital = { state = 43 remember_old_capital = no }
+		}		
+	}
+}
+
+
+# Capital of the Peru-Bolivian Confederation
+country_event = {
+	id = KSR_events.2
+	title = KSR_events.2.t
+	desc = KSR_events.2.d
+	picture = GFX_report_event_usa_election_generic
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.2.a
+		ai_chance = {
+			factor = 50
+		}
+		effect_tooltip = {
+			set_capital = { state = 303 }
+		}
+		
+		hidden_effect = { 
+			set_capital = { state = 303 remember_old_capital = no }
+		}	
+		
+	}
+	option = {
+		name = KSR_events.2.b
+		ai_chance = {
+			factor = 50
+		}
+		effect_tooltip = {
+			set_capital = { state = 302 }
+		}
+		
+		hidden_effect = { 
+			set_capital = { state = 302 remember_old_capital = no }
+		}		
+	}
+	option = {
+		name = KSR_events.2.c
+		ai_chance = {
+			factor = 200
+		}
+		effect_tooltip = {
+			set_capital = { state = 492 }
+		}
+		
+		hidden_effect = { 
+			set_capital = { state = 492 remember_old_capital = no }
+		}		
+	}
+}
+
+
+# Establish the Pacific States
+country_event = {
+	id = KSR_events.3
+	title = KSR_events.3.t
+	desc = KSR_events.3.d
+	picture = GFX_ksr_jap_event_establish_pacific_states
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.3.a
+		ai_chance = {
+			factor = 200
+		}
+		effect_tooltip = {
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 878 }
+						any_country = {
+							owns_state = 878
+							is_subject_of = JAP
+						}
+					}
+				}
+				878 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}		
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 876 }
+						any_country = {
+							owns_state = 876
+							is_subject_of = JAP
+						}
+					}
+				}
+				876 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}		
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 382 }
+						any_country = {
+							owns_state = 382
+							is_subject_of = JAP
+						}
+					}
+				}
+				382 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}		
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 875 }
+						any_country = {
+							owns_state = 875
+							is_subject_of = JAP
+						}
+					}
+				}
+				875 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}		
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 381 }
+						any_country = {
+							owns_state = 381
+							is_subject_of = JAP
+						}
+					}
+				}
+				381 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 882 }
+						any_country = {
+							owns_state = 882
+							is_subject_of = JAP
+						}
+					}
+				}
+				882 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 387 }
+						any_country = {
+							owns_state = 387
+							is_subject_of = JAP
+						}
+					}
+				}
+				387 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 388 }
+						any_country = {
+							owns_state = 388
+							is_subject_of = JAP
+						}
+					}
+				}
+				388 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 873 }
+						any_country = {
+							owns_state = XXX
+							is_subject_of = JAP
+						}
+					}
+				}
+				873 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 872 }
+						any_country = {
+							owns_state = 872
+							is_subject_of = JAP
+						}
+					}
+				}
+				872 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}		
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 879 }
+						any_country = {
+							owns_state = 879
+							is_subject_of = JAP
+						}
+					}
+				}
+				879 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 375 }
+						any_country = {
+							owns_state = 375
+							is_subject_of = JAP
+						}
+					}
+				}
+				375 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 371 }
+						any_country = {
+							owns_state = 371
+							is_subject_of = JAP
+						}
+					}
+				}
+				371 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 370 }
+						any_country = {
+							owns_state = 370
+							is_subject_of = JAP
+						}
+					}
+				}
+				370 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 367 }
+						any_country = {
+							owns_state = 367
+							is_subject_of = JAP
+						}
+					}
+				}
+				367 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 365 }
+						any_country = {
+							owns_state = 365
+							is_subject_of = JAP
+						}
+					}
+				}
+				365 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 366 }
+						any_country = {
+							owns_state = 366
+							is_subject_of = JAP
+						}
+					}
+				}
+				366 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 364 }
+						any_country = {
+							owns_state = 364
+							is_subject_of = JAP
+						}
+					}
+				}
+				364 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 363 }
+						any_country = {
+							owns_state = 363
+							is_subject_of = JAP
+						}
+					}
+				}
+				363 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 362 }
+						any_country = {
+							owns_state = 362
+							is_subject_of = JAP
+						}
+					}
+				}
+				362 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 361 }
+						any_country = {
+							owns_state = 361
+							is_subject_of = JAP
+						}
+					}
+				}
+				361 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 360 }
+						any_country = {
+							owns_state = 360
+							is_subject_of = JAP
+						}
+					}
+				}
+				360 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 359 }
+						any_country = {
+							owns_state = 359
+							is_subject_of = JAP
+						}
+					}
+				}
+				359 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 358 }
+						any_country = {
+							owns_state = 358
+							is_subject_of = JAP
+						}
+					}
+				}
+				358 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 357 }
+						any_country = {
+							owns_state = 357
+							is_subject_of = JAP
+						}
+					}
+				}
+				357 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 365 }
+						any_country = {
+							owns_state = 365
+							is_subject_of = JAP
+						}
+					}
+				}
+				365 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 368 }
+						any_country = {
+							owns_state = 368
+							is_subject_of = JAP
+						}
+					}
+				}
+				368 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 884 }
+						any_country = {
+							owns_state = 884
+							is_subject_of = JAP
+						}
+					}
+				}
+				884 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 883 }
+						any_country = {
+							owns_state = 883
+							is_subject_of = JAP
+						}
+					}
+				}
+				883 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 384 }
+						any_country = {
+							owns_state = 384
+							is_subject_of = JAP
+						}
+					}
+				}
+				384 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 881 }
+						any_country = {
+							owns_state = 881
+							is_subject_of = JAP
+						}
+					}
+				}
+				881 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 880 }
+						any_country = {
+							owns_state = 880
+							is_subject_of = JAP
+						}
+					}
+				}
+				880 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 374 }
+						any_country = {
+							owns_state = 374
+							is_subject_of = JAP
+						}
+					}
+				}
+				374 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 383 }
+						any_country = {
+							owns_state = 383
+							is_subject_of = JAP
+						}
+					}
+				}
+				383 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 389 }
+						any_country = {
+							owns_state = 389
+							is_subject_of = JAP
+						}
+					}
+				}
+				389 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 390 }
+						any_country = {
+							owns_state = 390
+							is_subject_of = JAP
+						}
+					}
+				}
+				390 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 372 }
+						any_country = {
+							owns_state = 372
+							is_subject_of = JAP
+						}
+					}
+				}
+				372 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 368 }
+						any_country = {
+							owns_state = 368
+							is_subject_of = JAP
+						}
+					}
+				}
+				368 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 391 }
+						any_country = {
+							owns_state = 391
+							is_subject_of = JAP
+						}
+					}
+				}
+				391 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 392 }
+						any_country = {
+							owns_state = 392
+							is_subject_of = JAP
+						}
+					}
+				}
+				392 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 373 }
+						any_country = {
+							owns_state = 373
+							is_subject_of = JAP
+						}
+					}
+				}
+				373 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 395 }
+						any_country = {
+							owns_state = 395
+							is_subject_of = JAP
+						}
+					}
+				}
+				395 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 396 }
+						any_country = {
+							owns_state = 396
+							is_subject_of = JAP
+						}
+					}
+				}
+				396 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 369 }
+						any_country = {
+							owns_state = 369
+							is_subject_of = JAP
+						}
+					}
+				}
+				369 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 816 }
+						any_country = {
+							owns_state = 816
+							is_subject_of = JAP
+						}
+					}
+				}
+				816 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 394 }
+						any_country = {
+							owns_state = 394
+							is_subject_of = JAP
+						}
+					}
+				}
+				394 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 393 }
+						any_country = {
+							owns_state = 393
+							is_subject_of = JAP
+						}
+					}
+				}
+				393 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 261 }
+						any_country = {
+							owns_state = 261
+							is_subject_of = JAP
+						}
+					}
+				}
+				261 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 877 }
+						any_country = {
+							owns_state = 877
+							is_subject_of = JAP
+						}
+					}
+				}
+				877 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 378 }
+						any_country = {
+							owns_state = 378
+							is_subject_of = JAP
+						}
+					}
+				}
+				378 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 377 }
+						any_country = {
+							owns_state = 377
+							is_subject_of = JAP
+						}
+					}
+				}
+				377 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 376 }
+						any_country = {
+							owns_state = 376
+							is_subject_of = JAP
+						}
+					}
+				}
+				376 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}			
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 380 }
+						any_country = {
+							owns_state = 380
+							is_subject_of = JAP
+						}
+					}
+				}
+				380 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 379 }
+						any_country = {
+							owns_state = 379
+							is_subject_of = JAP
+						}
+					}
+				}
+				379 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}			
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 874 }
+						any_country = {
+							owns_state = 874
+							is_subject_of = JAP
+						}
+					}
+				}
+				874 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}			
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 385 }
+						any_country = {
+							owns_state = 385
+							is_subject_of = JAP
+						}
+					}
+				}
+				385 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}			
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 484 }
+						any_country = {
+							owns_state = 484
+							is_subject_of = JAP
+						}
+					}
+				}
+				484 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 386 }
+						any_country = {
+							owns_state = 386
+							is_subject_of = JAP
+						}
+					}
+				}
+				386 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 740 }
+						any_country = {
+							owns_state = 740
+							is_subject_of = JAP
+						}
+					}
+				}
+				740 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 739 }
+						any_country = {
+							owns_state = 739
+							is_subject_of = JAP
+						}
+					}
+				}
+				739 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 473 }
+						any_country = {
+							owns_state = 473
+							is_subject_of = JAP
+						}
+					}
+				}
+				473 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 471 }
+						any_country = {
+							owns_state = 471
+							is_subject_of = JAP
+						}
+					}
+				}
+				471 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 463 }
+						any_country = {
+							owns_state = 463
+							is_subject_of = JAP
+						}
+					}
+				}
+				463 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 885 }
+						any_country = {
+							owns_state = 885
+							is_subject_of = JAP
+						}
+					}
+				}
+				885 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 886 }
+						any_country = {
+							owns_state = 886
+							is_subject_of = JAP
+						}
+					}
+				}
+				886 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 472 }
+						any_country = {
+							owns_state = 472
+							is_subject_of = JAP
+						}
+					}
+				}
+				472 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 470 }
+						any_country = {
+							owns_state = 470
+							is_subject_of = JAP
+						}
+					}
+				}
+				470 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 469 }
+						any_country = {
+							owns_state = 469
+							is_subject_of = JAP
+						}
+					}
+				}
+				469 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 683 }
+						any_country = {
+							owns_state = 683
+							is_subject_of = JAP
+						}
+					}
+				}
+				683 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 467 }
+						any_country = {
+							owns_state = 467
+							is_subject_of = JAP
+						}
+					}
+				}
+				467 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 682 }
+						any_country = {
+							owns_state = 682
+							is_subject_of = JAP
+						}
+					}
+				}
+				682 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 276 }
+						any_country = {
+							owns_state = 276
+							is_subject_of = JAP
+						}
+					}
+				}
+				276 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 468 }
+						any_country = {
+							owns_state = 468
+							is_subject_of = JAP
+						}
+					}
+				}
+				468 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 465 }
+						any_country = {
+							owns_state = 465
+							is_subject_of = JAP
+						}
+					}
+				}
+				465 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 464 }
+						any_country = {
+							owns_state = 464
+							is_subject_of = JAP
+						}
+					}
+				}
+				464 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 466 }
+						any_country = {
+							owns_state = 466
+							is_subject_of = JAP
+						}
+					}
+				}
+				466 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 332 }
+						any_country = {
+							owns_state = 332 
+							is_subject_of = JAP
+						}
+					}
+				}
+				332 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 331 }
+						any_country = {
+							owns_state = 331
+							is_subject_of = JAP
+						}
+					}
+				}
+				331 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+
+
+
+
+	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 885 }
+						any_country = {
+							owns_state = 885
+							is_subject_of = JAP
+						}
+					}
+				}
+				885 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 886 }
+						any_country = {
+							owns_state = 886
+							is_subject_of = JAP
+						}
+					}
+				}
+				886 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 472 }
+						any_country = {
+							owns_state = 472
+							is_subject_of = JAP
+						}
+					}
+				}
+				472 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 470 }
+						any_country = {
+							owns_state = 470
+							is_subject_of = JAP
+						}
+					}
+				}
+				470 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 469 }
+						any_country = {
+							owns_state = 469
+							is_subject_of = JAP
+						}
+					}
+				}
+				469 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 683 }
+						any_country = {
+							owns_state = 683
+							is_subject_of = JAP
+						}
+					}
+				}
+				683 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 467 }
+						any_country = {
+							owns_state = 467
+							is_subject_of = JAP
+						}
+					}
+				}
+				467 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 682 }
+						any_country = {
+							owns_state = 682
+							is_subject_of = JAP
+						}
+					}
+				}
+				682 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 276 }
+						any_country = {
+							owns_state = 276
+							is_subject_of = JAP
+						}
+					}
+				}
+				276 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 468 }
+						any_country = {
+							owns_state = 468
+							is_subject_of = JAP
+						}
+					}
+				}
+				468 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 465 }
+						any_country = {
+							owns_state = 465
+							is_subject_of = JAP
+						}
+					}
+				}
+				465 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 464 }
+						any_country = {
+							owns_state = 464
+							is_subject_of = JAP
+						}
+					}
+				}
+				464 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 466 }
+						any_country = {
+							owns_state = 466
+							is_subject_of = JAP
+						}
+					}
+				}
+				466 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 332 }
+						any_country = {
+							owns_state = 332 
+							is_subject_of = JAP
+						}
+					}
+				}
+				332 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 331 }
+						any_country = {
+							owns_state = 331
+							is_subject_of = JAP
+						}
+					}
+				}
+				331 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 878 }
+						any_country = {
+							owns_state = 878
+							is_subject_of = JAP
+						}
+					}
+				}
+				878 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}		
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 876 }
+						any_country = {
+							owns_state = 876
+							is_subject_of = JAP
+						}
+					}
+				}
+				876 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}		
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 382 }
+						any_country = {
+							owns_state = 382
+							is_subject_of = JAP
+						}
+					}
+				}
+				382 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}		
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 875 }
+						any_country = {
+							owns_state = 875
+							is_subject_of = JAP
+						}
+					}
+				}
+				875 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}		
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 381 }
+						any_country = {
+							owns_state = 381
+							is_subject_of = JAP
+						}
+					}
+				}
+				381 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 882 }
+						any_country = {
+							owns_state = 882
+							is_subject_of = JAP
+						}
+					}
+				}
+				882 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 387 }
+						any_country = {
+							owns_state = 387
+							is_subject_of = JAP
+						}
+					}
+				}
+				387 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 388 }
+						any_country = {
+							owns_state = 388
+							is_subject_of = JAP
+						}
+					}
+				}
+				388 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 873 }
+						any_country = {
+							owns_state = XXX
+							is_subject_of = JAP
+						}
+					}
+				}
+				873 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 872 }
+						any_country = {
+							owns_state = 872
+							is_subject_of = JAP
+						}
+					}
+				}
+				872 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}	
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 879 }
+						any_country = {
+							owns_state = 879
+							is_subject_of = JAP
+						}
+					}
+				}
+				879 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 375 }
+						any_country = {
+							owns_state = 375
+							is_subject_of = JAP
+						}
+					}
+				}
+				375 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 371 }
+						any_country = {
+							owns_state = 371
+							is_subject_of = JAP
+						}
+					}
+				}
+				371 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 370 }
+						any_country = {
+							owns_state = 370
+							is_subject_of = JAP
+						}
+					}
+				}
+				370 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 367 }
+						any_country = {
+							owns_state = 367
+							is_subject_of = JAP
+						}
+					}
+				}
+				367 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 365 }
+						any_country = {
+							owns_state = 365
+							is_subject_of = JAP
+						}
+					}
+				}
+				365 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 366 }
+						any_country = {
+							owns_state = 366
+							is_subject_of = JAP
+						}
+					}
+				}
+				366 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 364 }
+						any_country = {
+							owns_state = 364
+							is_subject_of = JAP
+						}
+					}
+				}
+				364 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 363 }
+						any_country = {
+							owns_state = 363
+							is_subject_of = JAP
+						}
+					}
+				}
+				363 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 362 }
+						any_country = {
+							owns_state = 362
+							is_subject_of = JAP
+						}
+					}
+				}
+				362 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 361 }
+						any_country = {
+							owns_state = 361
+							is_subject_of = JAP
+						}
+					}
+				}
+				361 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 360 }
+						any_country = {
+							owns_state = 360
+							is_subject_of = JAP
+						}
+					}
+				}
+				360 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 359 }
+						any_country = {
+							owns_state = 359
+							is_subject_of = JAP
+						}
+					}
+				}
+				359 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 358 }
+						any_country = {
+							owns_state = 358
+							is_subject_of = JAP
+						}
+					}
+				}
+				358 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 357 }
+						any_country = {
+							owns_state = 357
+							is_subject_of = JAP
+						}
+					}
+				}
+				357 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 365 }
+						any_country = {
+							owns_state = 365
+							is_subject_of = JAP
+						}
+					}
+				}
+				365 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 368 }
+						any_country = {
+							owns_state = 368
+							is_subject_of = JAP
+						}
+					}
+				}
+				368 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 884 }
+						any_country = {
+							owns_state = 884
+							is_subject_of = JAP
+						}
+					}
+				}
+				884 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 883 }
+						any_country = {
+							owns_state = 883
+							is_subject_of = JAP
+						}
+					}
+				}
+				883 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 384 }
+						any_country = {
+							owns_state = 384
+							is_subject_of = JAP
+						}
+					}
+				}
+				384 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 881 }
+						any_country = {
+							owns_state = 881
+							is_subject_of = JAP
+						}
+					}
+				}
+				881 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 880 }
+						any_country = {
+							owns_state = 880
+							is_subject_of = JAP
+						}
+					}
+				}
+				880 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 374 }
+						any_country = {
+							owns_state = 374
+							is_subject_of = JAP
+						}
+					}
+				}
+				374 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 383 }
+						any_country = {
+							owns_state = 383
+							is_subject_of = JAP
+						}
+					}
+				}
+				383 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 389 }
+						any_country = {
+							owns_state = 389
+							is_subject_of = JAP
+						}
+					}
+				}
+				389 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 390 }
+						any_country = {
+							owns_state = 390
+							is_subject_of = JAP
+						}
+					}
+				}
+				390 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 372 }
+						any_country = {
+							owns_state = 372
+							is_subject_of = JAP
+						}
+					}
+				}
+				372 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 368 }
+						any_country = {
+							owns_state = 368
+							is_subject_of = JAP
+						}
+					}
+				}
+				368 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 391 }
+						any_country = {
+							owns_state = 391
+							is_subject_of = JAP
+						}
+					}
+				}
+				391 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 392 }
+						any_country = {
+							owns_state = 392
+							is_subject_of = JAP
+						}
+					}
+				}
+				392 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 373 }
+						any_country = {
+							owns_state = 373
+							is_subject_of = JAP
+						}
+					}
+				}
+				373 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 395 }
+						any_country = {
+							owns_state = 395
+							is_subject_of = JAP
+						}
+					}
+				}
+				395 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 396 }
+						any_country = {
+							owns_state = 396
+							is_subject_of = JAP
+						}
+					}
+				}
+				396 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 369 }
+						any_country = {
+							owns_state = 369
+							is_subject_of = JAP
+						}
+					}
+				}
+				369 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 816 }
+						any_country = {
+							owns_state = 816
+							is_subject_of = JAP
+						}
+					}
+				}
+				816 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 394 }
+						any_country = {
+							owns_state = 394
+							is_subject_of = JAP
+						}
+					}
+				}
+				394 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 393 }
+						any_country = {
+							owns_state = 393
+							is_subject_of = JAP
+						}
+					}
+				}
+				393 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 261 }
+						any_country = {
+							owns_state = 261
+							is_subject_of = JAP
+						}
+					}
+				}
+				261 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 877 }
+						any_country = {
+							owns_state = 877
+							is_subject_of = JAP
+						}
+					}
+				}
+				877 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 378 }
+						any_country = {
+							owns_state = 378
+							is_subject_of = JAP
+						}
+					}
+				}
+				378 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 377 }
+						any_country = {
+							owns_state = 377
+							is_subject_of = JAP
+						}
+					}
+				}
+				377 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 376 }
+						any_country = {
+							owns_state = 376
+							is_subject_of = JAP
+						}
+					}
+				}
+				376 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}			
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 380 }
+						any_country = {
+							owns_state = 380
+							is_subject_of = JAP
+						}
+					}
+				}
+				380 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 379 }
+						any_country = {
+							owns_state = 379
+							is_subject_of = JAP
+						}
+					}
+				}
+				379 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}			
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 874 }
+						any_country = {
+							owns_state = 874
+							is_subject_of = JAP
+						}
+					}
+				}
+				874 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}			
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 385 }
+						any_country = {
+							owns_state = 385
+							is_subject_of = JAP
+						}
+					}
+				}
+				385 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}			
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 484 }
+						any_country = {
+							owns_state = 484
+							is_subject_of = JAP
+						}
+					}
+				}
+				484 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 386 }
+						any_country = {
+							owns_state = 386
+							is_subject_of = JAP
+						}
+					}
+				}
+				386 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 740 }
+						any_country = {
+							owns_state = 740
+							is_subject_of = JAP
+						}
+					}
+				}
+				740 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 739 }
+						any_country = {
+							owns_state = 739
+							is_subject_of = JAP
+						}
+					}
+				}
+				739 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 473 }
+						any_country = {
+							owns_state = 473
+							is_subject_of = JAP
+						}
+					}
+				}
+				473 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 471 }
+						any_country = {
+							owns_state = 471
+							is_subject_of = JAP
+						}
+					}
+				}
+				471 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+			if = {
+				limit = {
+					OR = {
+						JAP = { owns_state = 463 }
+						any_country = {
+							owns_state = 463
+							is_subject_of = JAP
+						}
+					}
+				}
+				463 = { transfer_state_to = JPS add_core_of = JPS hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+			}
+		}
+		FROM = { puppet = JPS }
+	}
+	option = {
+		name = KSR_events.3.b	
+	}
+}
+
+
+
+
+# Establish the American Reich
+country_event = {
+	id = KSR_events.4
+	title = KSR_events.4.t
+	desc = KSR_events.4.d
+	picture = GFX_ksr_ger_event_establish_american_reich
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.4.a
+		ai_chance = {
+			factor = 200
+		}
+
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 878 }
+					any_country = {
+						owns_state = 878
+						is_subject_of = GER
+					}
+				}
+			}
+			878 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}		
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 876 }
+					any_country = {
+						owns_state = 876
+						is_subject_of = GER
+					}
+				}
+			}
+			876 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}		
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 382 }
+					any_country = {
+						owns_state = 382
+						is_subject_of = GER
+					}
+				}
+			}
+			382 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}		
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 875 }
+					any_country = {
+						owns_state = 875
+						is_subject_of = GER
+					}
+				}
+			}
+			875 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}		
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 381 }
+					any_country = {
+						owns_state = 381
+						is_subject_of = GER
+					}
+				}
+			}
+			381 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 882 }
+					any_country = {
+						owns_state = 882
+						is_subject_of = GER
+					}
+				}
+			}
+			882 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 387 }
+					any_country = {
+						owns_state = 387
+						is_subject_of = GER
+					}
+				}
+			}
+			387 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 388 }
+					any_country = {
+						owns_state = 388
+						is_subject_of = GER
+					}
+				}
+			}
+			388 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 873 }
+					any_country = {
+						owns_state = XXX
+						is_subject_of = GER
+					}
+				}
+			}
+			873 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 872 }
+					any_country = {
+						owns_state = 872
+						is_subject_of = GER
+					}
+				}
+			}
+			872 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}	
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 879 }
+					any_country = {
+						owns_state = 879
+						is_subject_of = GER
+					}
+				}
+			}
+			879 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 375 }
+					any_country = {
+						owns_state = 375
+						is_subject_of = GER
+					}
+				}
+			}
+			375 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 371 }
+					any_country = {
+						owns_state = 371
+						is_subject_of = GER
+					}
+				}
+			}
+			371 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 370 }
+					any_country = {
+						owns_state = 370
+						is_subject_of = GER
+					}
+				}
+			}
+			370 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 367 }
+					any_country = {
+						owns_state = 367
+						is_subject_of = GER
+					}
+				}
+			}
+			367 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 365 }
+					any_country = {
+						owns_state = 365
+						is_subject_of = GER
+					}
+				}
+			}
+			365 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 366 }
+					any_country = {
+						owns_state = 366
+						is_subject_of = GER
+					}
+				}
+			}
+			366 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 364 }
+					any_country = {
+						owns_state = 364
+						is_subject_of = GER
+					}
+				}
+			}
+			364 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 363 }
+					any_country = {
+						owns_state = 363
+						is_subject_of = GER
+					}
+				}
+			}
+			363 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 362 }
+					any_country = {
+						owns_state = 362
+						is_subject_of = GER
+					}
+				}
+			}
+			362 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 361 }
+					any_country = {
+						owns_state = 361
+						is_subject_of = GER
+					}
+				}
+			}
+			361 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 360 }
+					any_country = {
+						owns_state = 360
+						is_subject_of = GER
+					}
+				}
+			}
+			360 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 359 }
+					any_country = {
+						owns_state = 359
+						is_subject_of = GER
+					}
+				}
+			}
+			359 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 358 }
+					any_country = {
+						owns_state = 358
+						is_subject_of = GER
+					}
+				}
+			}
+			358 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 357 }
+					any_country = {
+						owns_state = 357
+						is_subject_of = GER
+					}
+				}
+			}
+			357 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 365 }
+					any_country = {
+						owns_state = 365
+						is_subject_of = GER
+					}
+				}
+			}
+			365 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 368 }
+					any_country = {
+						owns_state = 368
+						is_subject_of = GER
+					}
+				}
+			}
+			368 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 884 }
+					any_country = {
+						owns_state = 884
+						is_subject_of = GER
+					}
+				}
+			}
+			884 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 883 }
+					any_country = {
+						owns_state = 883
+						is_subject_of = GER
+					}
+				}
+			}
+			883 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 384 }
+					any_country = {
+						owns_state = 384
+						is_subject_of = GER
+					}
+				}
+			}
+			384 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 881 }
+					any_country = {
+						owns_state = 881
+						is_subject_of = GER
+					}
+				}
+			}
+			881 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 880 }
+					any_country = {
+						owns_state = 880
+						is_subject_of = GER
+					}
+				}
+			}
+			880 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 374 }
+					any_country = {
+						owns_state = 374
+						is_subject_of = GER
+					}
+				}
+			}
+			374 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 383 }
+					any_country = {
+						owns_state = 383
+						is_subject_of = GER
+					}
+				}
+			}
+			383 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 389 }
+					any_country = {
+						owns_state = 389
+						is_subject_of = GER
+					}
+				}
+			}
+			389 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 390 }
+					any_country = {
+						owns_state = 390
+						is_subject_of = GER
+					}
+				}
+			}
+			390 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 372 }
+					any_country = {
+						owns_state = 372
+						is_subject_of = GER
+					}
+				}
+			}
+			372 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 368 }
+					any_country = {
+						owns_state = 368
+						is_subject_of = GER
+					}
+				}
+			}
+			368 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 391 }
+					any_country = {
+						owns_state = 391
+						is_subject_of = GER
+					}
+				}
+			}
+			391 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 392 }
+					any_country = {
+						owns_state = 392
+						is_subject_of = GER
+					}
+				}
+			}
+			392 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 373 }
+					any_country = {
+						owns_state = 373
+						is_subject_of = GER
+					}
+				}
+			}
+			373 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 395 }
+					any_country = {
+						owns_state = 395
+						is_subject_of = GER
+					}
+				}
+			}
+			395 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 396 }
+					any_country = {
+						owns_state = 396
+						is_subject_of = GER
+					}
+				}
+			}
+			396 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 369 }
+					any_country = {
+						owns_state = 369
+						is_subject_of = GER
+					}
+				}
+			}
+			369 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 816 }
+					any_country = {
+						owns_state = 816
+						is_subject_of = GER
+					}
+				}
+			}
+			816 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 394 }
+					any_country = {
+						owns_state = 394
+						is_subject_of = GER
+					}
+				}
+			}
+			394 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 393 }
+					any_country = {
+						owns_state = 393
+						is_subject_of = GER
+					}
+				}
+			}
+			393 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 261 }
+					any_country = {
+						owns_state = 261
+						is_subject_of = GER
+					}
+				}
+			}
+			261 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 877 }
+					any_country = {
+						owns_state = 877
+						is_subject_of = GER
+					}
+				}
+			}
+			877 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 378 }
+					any_country = {
+						owns_state = 378
+						is_subject_of = GER
+					}
+				}
+			}
+			378 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 377 }
+					any_country = {
+						owns_state = 377
+						is_subject_of = GER
+					}
+				}
+			}
+			377 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 376 }
+					any_country = {
+						owns_state = 376
+						is_subject_of = GER
+					}
+				}
+			}
+			376 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}			
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 380 }
+					any_country = {
+						owns_state = 380
+						is_subject_of = GER
+					}
+				}
+			}
+			380 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 379 }
+					any_country = {
+						owns_state = 379
+						is_subject_of = GER
+					}
+				}
+			}
+			379 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}			
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 874 }
+					any_country = {
+						owns_state = 874
+						is_subject_of = GER
+					}
+				}
+			}
+			874 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}			
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 385 }
+					any_country = {
+						owns_state = 385
+						is_subject_of = GER
+					}
+				}
+			}
+			385 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}			
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 484 }
+					any_country = {
+						owns_state = 484
+						is_subject_of = GER
+					}
+				}
+			}
+			484 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 386 }
+					any_country = {
+						owns_state = 386
+						is_subject_of = GER
+					}
+				}
+			}
+			386 = { transfer_state_to = ARH add_core_of = ARH hidden_effect = { remove_core_of = USA remove_core_of = CAN  } }
+		}
+		
+		
+		FROM = { puppet = ARH }
+	}
+	option = {
+		name = KSR_events.4.b	
+	}
+}
+
+
+
+# Review the American Partition Plan (German view)
+country_event = {
+	id = KSR_events.5
+	title = KSR_events.5.t
+	desc = KSR_events.5.d
+	picture = GFX_ksr_event_review_american_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.5.a
+		
+		ai_chance = {
+			factor = 200
+		}
+		
+		JAP = { country_event = { id = KSR_events.8 days = 2 } }
+	}
+	option = {
+		name = KSR_events.5.b
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+
+
+
+
+# Review the American Partition Plan (Japanese view)
+country_event = {
+	id = KSR_events.6
+	title = KSR_events.6.t
+	desc = KSR_events.6.d
+	picture = GFX_ksr_event_review_american_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.6.a
+		
+		ai_chance = {
+			factor = 200
+		}
+		
+		GER = { country_event = { id = KSR_events.7 days = 2 } }
+	}
+	option = {
+		name = KSR_events.6.b
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+
+
+
+# Japanese Delegation for the American Partition Plan (German view)
+country_event = {
+	id = KSR_events.7
+	title = KSR_events.7.t
+	desc = KSR_events.7.d
+	picture = GFX_ksr_event_review_american_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.7.a
+		
+		ai_chance = {
+			factor = 200
+		}
+		JAP = { country_event = { id = KSR_events.10 days = 2 } }
+	}
+	option = {
+		name = KSR_events.7.b
+		ai_chance = {
+			factor = 10
+		}
+		JAP = { country_event = { id = KSR_events.12 days = 2 } }
+	}
+}
+
+
+
+
+
+# German Delegation for the American Partition Plan (Japanese view)
+country_event = {
+	id = KSR_events.8
+	title = KSR_events.8.t
+	desc = KSR_events.8.d
+	picture = GFX_ksr_event_review_american_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.8.a
+		
+		ai_chance = {
+			factor = 200
+		}
+		GER = { country_event = { id = KSR_events.9 days = 2 } }
+	}
+	option = {
+		name = KSR_events.8.b
+		ai_chance = {
+			factor = 10
+		}
+		GER = { country_event = { id = KSR_events.11 days = 2 } }
+	}
+}
+
+
+
+
+# The Japanese have agreed (German view)
+country_event = {
+	id = KSR_events.9
+	title = KSR_events.9.t
+	desc = KSR_events.9.d
+	picture = GFX_ksr_event_review_american_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.9.a
+		
+		ai_chance = {
+			factor = 200
+		}
+		
+		# Transfer the West to Japan
+		if = { limit = { OR = { JPS = { owns_state = 378 } JAP = { owns_state = 378 } GER = { owns_state = 378 } ARH = { owns_state = 378 } ANZ = { owns_state = 378 } } } 378 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 877 } JAP = { owns_state = 877 } GER = { owns_state = 877 } ARH = { owns_state = 877 } ANZ = { owns_state = 877 } } } 877 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 377 } JAP = { owns_state = 377 } GER = { owns_state = 377 } ARH = { owns_state = 377 } ANZ = { owns_state = 377 } } } 377 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 376 } JAP = { owns_state = 376 } GER = { owns_state = 376 } ARH = { owns_state = 376 } ANZ = { owns_state = 376 } } } 376 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 379 } JAP = { owns_state = 379 } GER = { owns_state = 379 } ARH = { owns_state = 379 } ANZ = { owns_state = 379 } } } 379 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 385 } JAP = { owns_state = 385 } GER = { owns_state = 385 } ARH = { owns_state = 385 } ANZ = { owns_state = 385 } } } 385 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 380 } JAP = { owns_state = 380 } GER = { owns_state = 380 } ARH = { owns_state = 380 } ANZ = { owns_state = 380 } } } 380 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 386 } JAP = { owns_state = 386 } GER = { owns_state = 386 } ARH = { owns_state = 386 } ANZ = { owns_state = 386 } } } 386 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 874 } JAP = { owns_state = 874 } GER = { owns_state = 874 } ARH = { owns_state = 874 } ANZ = { owns_state = 874 } } } 874 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 463 } JAP = { owns_state = 463 } GER = { owns_state = 463 } ARH = { owns_state = 463 } ANZ = { owns_state = 463 } } } 463 = { transfer_state_to = JAP remove_core_of = CRH } }
+		if = { limit = { OR = { JPS = { owns_state = 484 } JAP = { owns_state = 484 } GER = { owns_state = 484 } ARH = { owns_state = 484 } ANZ = { owns_state = 484 } } } 484 = { transfer_state_to = JAP } }
+
+		# Transfer the Rocky Mountains to the American Neutral Zone
+		if = { limit = { OR = { JPS = { owns_state = 872 } JAP = { owns_state = 872 } GER = { owns_state = 872 } ARH = { owns_state = 872 } ANZ = { owns_state = 872 } } } 872 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 387 } JAP = { owns_state = 387 } GER = { owns_state = 387 } ARH = { owns_state = 387 } ANZ = { owns_state = 387 } } } 387 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 873 } JAP = { owns_state = 873 } GER = { owns_state = 873 } ARH = { owns_state = 873 } ANZ = { owns_state = 873 } } } 873 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 388 } JAP = { owns_state = 388 } GER = { owns_state = 388 } ARH = { owns_state = 388 } ANZ = { owns_state = 388 } } } 388 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 381 } JAP = { owns_state = 381 } GER = { owns_state = 381 } ARH = { owns_state = 381 } ANZ = { owns_state = 381 } } } 381 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 882 } JAP = { owns_state = 882 } GER = { owns_state = 882 } ARH = { owns_state = 882 } ANZ = { owns_state = 882 } } } 882 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 875 } JAP = { owns_state = 875 } GER = { owns_state = 875 } ARH = { owns_state = 875 } ANZ = { owns_state = 875 } } } 875 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 382 } JAP = { owns_state = 382 } GER = { owns_state = 382 } ARH = { owns_state = 382 } ANZ = { owns_state = 382 } } } 382 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 876 } JAP = { owns_state = 876 } GER = { owns_state = 876 } ARH = { owns_state = 876 } ANZ = { owns_state = 876 } } } 876 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 878 } JAP = { owns_state = 878 } GER = { owns_state = 878 } ARH = { owns_state = 878 } ANZ = { owns_state = 878 } } } 878 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		
+		# Transfer the East to Germany
+		if = { limit = { OR = { JPS = { owns_state = 884 } JAP = { owns_state = 884 } GER = { owns_state = 884 } ARH = { owns_state = 884 } ANZ = { owns_state = 884 } } } 884 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 883 } JAP = { owns_state = 883 } GER = { owns_state = 883 } ARH = { owns_state = 883 } ANZ = { owns_state = 883 } } } 883 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 384 } JAP = { owns_state = 384 } GER = { owns_state = 384 } ARH = { owns_state = 384 } ANZ = { owns_state = 384 } } } 384 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 881 } JAP = { owns_state = 881 } GER = { owns_state = 881 } ARH = { owns_state = 881 } ANZ = { owns_state = 881 } } } 881 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 383 } JAP = { owns_state = 383 } GER = { owns_state = 383 } ARH = { owns_state = 383 } ANZ = { owns_state = 383 } } } 383 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 880 } JAP = { owns_state = 880 } GER = { owns_state = 880 } ARH = { owns_state = 880 } ANZ = { owns_state = 880 } } } 880 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 879 } JAP = { owns_state = 879 } GER = { owns_state = 879 } ARH = { owns_state = 879 } ANZ = { owns_state = 879 } } } 879 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 375 } JAP = { owns_state = 375 } GER = { owns_state = 375 } ARH = { owns_state = 375 } ANZ = { owns_state = 375 } } } 375 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 357 } JAP = { owns_state = 357 } GER = { owns_state = 357 } ARH = { owns_state = 357 } ANZ = { owns_state = 357 } } } 357 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 358 } JAP = { owns_state = 358 } GER = { owns_state = 358 } ARH = { owns_state = 358 } ANZ = { owns_state = 358 } } } 358 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 359 } JAP = { owns_state = 359 } GER = { owns_state = 359 } ARH = { owns_state = 359 } ANZ = { owns_state = 359 } } } 359 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 360 } JAP = { owns_state = 360 } GER = { owns_state = 360 } ARH = { owns_state = 360 } ANZ = { owns_state = 360 } } } 360 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 361 } JAP = { owns_state = 361 } GER = { owns_state = 361 } ARH = { owns_state = 361 } ANZ = { owns_state = 361 } } } 361 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 362 } JAP = { owns_state = 362 } GER = { owns_state = 362 } ARH = { owns_state = 362 } ANZ = { owns_state = 362 } } } 362 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 363 } JAP = { owns_state = 363 } GER = { owns_state = 363 } ARH = { owns_state = 363 } ANZ = { owns_state = 363 } } } 363 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 364 } JAP = { owns_state = 364 } GER = { owns_state = 364 } ARH = { owns_state = 364 } ANZ = { owns_state = 364 } } } 364 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 365 } JAP = { owns_state = 365 } GER = { owns_state = 365 } ARH = { owns_state = 365 } ANZ = { owns_state = 365 } } } 365 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 366 } JAP = { owns_state = 366 } GER = { owns_state = 366 } ARH = { owns_state = 366 } ANZ = { owns_state = 366 } } } 366 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 367 } JAP = { owns_state = 367 } GER = { owns_state = 367 } ARH = { owns_state = 367 } ANZ = { owns_state = 367 } } } 367 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 368 } JAP = { owns_state = 368 } GER = { owns_state = 368 } ARH = { owns_state = 368 } ANZ = { owns_state = 368 } } } 368 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 369 } JAP = { owns_state = 369 } GER = { owns_state = 369 } ARH = { owns_state = 369 } ANZ = { owns_state = 369 } } } 369 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 370 } JAP = { owns_state = 370 } GER = { owns_state = 370 } ARH = { owns_state = 370 } ANZ = { owns_state = 370 } } } 370 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 371 } JAP = { owns_state = 371 } GER = { owns_state = 371 } ARH = { owns_state = 371 } ANZ = { owns_state = 371 } } } 371 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 372 } JAP = { owns_state = 372 } GER = { owns_state = 372 } ARH = { owns_state = 372 } ANZ = { owns_state = 372 } } } 372 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 373 } JAP = { owns_state = 373 } GER = { owns_state = 373 } ARH = { owns_state = 373 } ANZ = { owns_state = 373 } } } 373 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 374 } JAP = { owns_state = 374 } GER = { owns_state = 374 } ARH = { owns_state = 374 } ANZ = { owns_state = 374 } } } 374 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 889 } JAP = { owns_state = 889 } GER = { owns_state = 889 } ARH = { owns_state = 889 } ANZ = { owns_state = 889 } } } 889 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 890 } JAP = { owns_state = 890 } GER = { owns_state = 890 } ARH = { owns_state = 890 } ANZ = { owns_state = 890 } } } 890 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 389 } JAP = { owns_state = 389 } GER = { owns_state = 389 } ARH = { owns_state = 389 } ANZ = { owns_state = 389 } } } 389 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 390 } JAP = { owns_state = 390 } GER = { owns_state = 390 } ARH = { owns_state = 390 } ANZ = { owns_state = 390 } } } 390 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 391 } JAP = { owns_state = 391 } GER = { owns_state = 391 } ARH = { owns_state = 391 } ANZ = { owns_state = 391 } } } 391 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 392 } JAP = { owns_state = 392 } GER = { owns_state = 392 } ARH = { owns_state = 392 } ANZ = { owns_state = 392 } } } 392 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 393 } JAP = { owns_state = 393 } GER = { owns_state = 393 } ARH = { owns_state = 393 } ANZ = { owns_state = 393 } } } 393 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 394 } JAP = { owns_state = 394 } GER = { owns_state = 394 } ARH = { owns_state = 394 } ANZ = { owns_state = 394 } } } 394 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 395 } JAP = { owns_state = 395 } GER = { owns_state = 395 } ARH = { owns_state = 395 } ANZ = { owns_state = 395 } } } 395 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 396 } JAP = { owns_state = 396 } GER = { owns_state = 396 } ARH = { owns_state = 396 } ANZ = { owns_state = 396 } } } 396 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 261 } JAP = { owns_state = 261 } GER = { owns_state = 261 } ARH = { owns_state = 261 } ANZ = { owns_state = 261 } } } 261 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 816 } JAP = { owns_state = 816 } GER = { owns_state = 816 } ARH = { owns_state = 816 } ANZ = { owns_state = 816 } } } 816 = { transfer_state_to = GER remove_core_of = JPS } }
+
+		hidden_effect = { news_event = { id = KSR_news_events.2 hours = 6 } }
+
+	}
+}
+
+
+
+# The Germans have agreed (Japanese view)
+country_event = {
+	id = KSR_events.10
+	title = KSR_events.10.t
+	desc = KSR_events.10.d
+	picture = GFX_ksr_event_review_american_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.10.a
+		
+		ai_chance = {
+			factor = 200
+		}
+		# Transfer the West to Japan
+		if = { limit = { OR = { JPS = { owns_state = 378 } JAP = { owns_state = 378 } GER = { owns_state = 378 } ARH = { owns_state = 378 } ANZ = { owns_state = 378 } } } 378 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 877 } JAP = { owns_state = 877 } GER = { owns_state = 877 } ARH = { owns_state = 877 } ANZ = { owns_state = 877 } } } 877 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 377 } JAP = { owns_state = 377 } GER = { owns_state = 377 } ARH = { owns_state = 377 } ANZ = { owns_state = 377 } } } 377 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 376 } JAP = { owns_state = 376 } GER = { owns_state = 376 } ARH = { owns_state = 376 } ANZ = { owns_state = 376 } } } 376 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 379 } JAP = { owns_state = 379 } GER = { owns_state = 379 } ARH = { owns_state = 379 } ANZ = { owns_state = 379 } } } 379 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 385 } JAP = { owns_state = 385 } GER = { owns_state = 385 } ARH = { owns_state = 385 } ANZ = { owns_state = 385 } } } 385 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 380 } JAP = { owns_state = 380 } GER = { owns_state = 380 } ARH = { owns_state = 380 } ANZ = { owns_state = 380 } } } 380 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 386 } JAP = { owns_state = 386 } GER = { owns_state = 386 } ARH = { owns_state = 386 } ANZ = { owns_state = 386 } } } 386 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 874 } JAP = { owns_state = 874 } GER = { owns_state = 874 } ARH = { owns_state = 874 } ANZ = { owns_state = 874 } } } 874 = { transfer_state_to = JAP remove_core_of = ARH } }
+		if = { limit = { OR = { JPS = { owns_state = 463 } JAP = { owns_state = 463 } GER = { owns_state = 463 } ARH = { owns_state = 463 } ANZ = { owns_state = 463 } } } 463 = { transfer_state_to = JAP remove_core_of = CRH } }
+		if = { limit = { OR = { JPS = { owns_state = 484 } JAP = { owns_state = 484 } GER = { owns_state = 484 } ARH = { owns_state = 484 } ANZ = { owns_state = 484 } } } 484 = { transfer_state_to = JAP } }
+
+		# Transfer the Rocky Mountains to the American Neutral Zone
+		if = { limit = { OR = { JPS = { owns_state = 872 } JAP = { owns_state = 872 } GER = { owns_state = 872 } ARH = { owns_state = 872 } ANZ = { owns_state = 872 } } } 872 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 387 } JAP = { owns_state = 387 } GER = { owns_state = 387 } ARH = { owns_state = 387 } ANZ = { owns_state = 387 } } } 387 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 873 } JAP = { owns_state = 873 } GER = { owns_state = 873 } ARH = { owns_state = 873 } ANZ = { owns_state = 873 } } } 873 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 388 } JAP = { owns_state = 388 } GER = { owns_state = 388 } ARH = { owns_state = 388 } ANZ = { owns_state = 388 } } } 388 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 381 } JAP = { owns_state = 381 } GER = { owns_state = 381 } ARH = { owns_state = 381 } ANZ = { owns_state = 381 } } } 381 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 882 } JAP = { owns_state = 882 } GER = { owns_state = 882 } ARH = { owns_state = 882 } ANZ = { owns_state = 882 } } } 882 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 875 } JAP = { owns_state = 875 } GER = { owns_state = 875 } ARH = { owns_state = 875 } ANZ = { owns_state = 875 } } } 875 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 382 } JAP = { owns_state = 382 } GER = { owns_state = 382 } ARH = { owns_state = 382 } ANZ = { owns_state = 382 } } } 382 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 876 } JAP = { owns_state = 876 } GER = { owns_state = 876 } ARH = { owns_state = 876 } ANZ = { owns_state = 876 } } } 876 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 878 } JAP = { owns_state = 878 } GER = { owns_state = 878 } ARH = { owns_state = 878 } ANZ = { owns_state = 878 } } } 878 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		
+		# Transfer the East to Germany
+		if = { limit = { OR = { JPS = { owns_state = 884 } JAP = { owns_state = 884 } GER = { owns_state = 884 } ARH = { owns_state = 884 } ANZ = { owns_state = 884 } } } 884 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 883 } JAP = { owns_state = 883 } GER = { owns_state = 883 } ARH = { owns_state = 883 } ANZ = { owns_state = 883 } } } 883 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 384 } JAP = { owns_state = 384 } GER = { owns_state = 384 } ARH = { owns_state = 384 } ANZ = { owns_state = 384 } } } 384 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 881 } JAP = { owns_state = 881 } GER = { owns_state = 881 } ARH = { owns_state = 881 } ANZ = { owns_state = 881 } } } 881 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 383 } JAP = { owns_state = 383 } GER = { owns_state = 383 } ARH = { owns_state = 383 } ANZ = { owns_state = 383 } } } 383 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 880 } JAP = { owns_state = 880 } GER = { owns_state = 880 } ARH = { owns_state = 880 } ANZ = { owns_state = 880 } } } 880 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 879 } JAP = { owns_state = 879 } GER = { owns_state = 879 } ARH = { owns_state = 879 } ANZ = { owns_state = 879 } } } 879 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 375 } JAP = { owns_state = 375 } GER = { owns_state = 375 } ARH = { owns_state = 375 } ANZ = { owns_state = 375 } } } 375 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 357 } JAP = { owns_state = 357 } GER = { owns_state = 357 } ARH = { owns_state = 357 } ANZ = { owns_state = 357 } } } 357 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 358 } JAP = { owns_state = 358 } GER = { owns_state = 358 } ARH = { owns_state = 358 } ANZ = { owns_state = 358 } } } 358 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 359 } JAP = { owns_state = 359 } GER = { owns_state = 359 } ARH = { owns_state = 359 } ANZ = { owns_state = 359 } } } 359 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 360 } JAP = { owns_state = 360 } GER = { owns_state = 360 } ARH = { owns_state = 360 } ANZ = { owns_state = 360 } } } 360 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 361 } JAP = { owns_state = 361 } GER = { owns_state = 361 } ARH = { owns_state = 361 } ANZ = { owns_state = 361 } } } 361 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 362 } JAP = { owns_state = 362 } GER = { owns_state = 362 } ARH = { owns_state = 362 } ANZ = { owns_state = 362 } } } 362 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 363 } JAP = { owns_state = 363 } GER = { owns_state = 363 } ARH = { owns_state = 363 } ANZ = { owns_state = 363 } } } 363 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 364 } JAP = { owns_state = 364 } GER = { owns_state = 364 } ARH = { owns_state = 364 } ANZ = { owns_state = 364 } } } 364 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 365 } JAP = { owns_state = 365 } GER = { owns_state = 365 } ARH = { owns_state = 365 } ANZ = { owns_state = 365 } } } 365 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 366 } JAP = { owns_state = 366 } GER = { owns_state = 366 } ARH = { owns_state = 366 } ANZ = { owns_state = 366 } } } 366 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 367 } JAP = { owns_state = 367 } GER = { owns_state = 367 } ARH = { owns_state = 367 } ANZ = { owns_state = 367 } } } 367 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 368 } JAP = { owns_state = 368 } GER = { owns_state = 368 } ARH = { owns_state = 368 } ANZ = { owns_state = 368 } } } 368 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 369 } JAP = { owns_state = 369 } GER = { owns_state = 369 } ARH = { owns_state = 369 } ANZ = { owns_state = 369 } } } 369 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 370 } JAP = { owns_state = 370 } GER = { owns_state = 370 } ARH = { owns_state = 370 } ANZ = { owns_state = 370 } } } 370 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 371 } JAP = { owns_state = 371 } GER = { owns_state = 371 } ARH = { owns_state = 371 } ANZ = { owns_state = 371 } } } 371 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 372 } JAP = { owns_state = 372 } GER = { owns_state = 372 } ARH = { owns_state = 372 } ANZ = { owns_state = 372 } } } 372 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 373 } JAP = { owns_state = 373 } GER = { owns_state = 373 } ARH = { owns_state = 373 } ANZ = { owns_state = 373 } } } 373 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 374 } JAP = { owns_state = 374 } GER = { owns_state = 374 } ARH = { owns_state = 374 } ANZ = { owns_state = 374 } } } 374 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 889 } JAP = { owns_state = 889 } GER = { owns_state = 889 } ARH = { owns_state = 889 } ANZ = { owns_state = 889 } } } 889 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 890 } JAP = { owns_state = 890 } GER = { owns_state = 890 } ARH = { owns_state = 890 } ANZ = { owns_state = 890 } } } 890 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 389 } JAP = { owns_state = 389 } GER = { owns_state = 389 } ARH = { owns_state = 389 } ANZ = { owns_state = 389 } } } 389 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 390 } JAP = { owns_state = 390 } GER = { owns_state = 390 } ARH = { owns_state = 390 } ANZ = { owns_state = 390 } } } 390 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 391 } JAP = { owns_state = 391 } GER = { owns_state = 391 } ARH = { owns_state = 391 } ANZ = { owns_state = 391 } } } 391 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 392 } JAP = { owns_state = 392 } GER = { owns_state = 392 } ARH = { owns_state = 392 } ANZ = { owns_state = 392 } } } 392 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 393 } JAP = { owns_state = 393 } GER = { owns_state = 393 } ARH = { owns_state = 393 } ANZ = { owns_state = 393 } } } 393 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 394 } JAP = { owns_state = 394 } GER = { owns_state = 394 } ARH = { owns_state = 394 } ANZ = { owns_state = 394 } } } 394 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 395 } JAP = { owns_state = 395 } GER = { owns_state = 395 } ARH = { owns_state = 395 } ANZ = { owns_state = 395 } } } 395 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 396 } JAP = { owns_state = 396 } GER = { owns_state = 396 } ARH = { owns_state = 396 } ANZ = { owns_state = 396 } } } 396 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 261 } JAP = { owns_state = 261 } GER = { owns_state = 261 } ARH = { owns_state = 261 } ANZ = { owns_state = 261 } } } 261 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 816 } JAP = { owns_state = 816 } GER = { owns_state = 816 } ARH = { owns_state = 816 } ANZ = { owns_state = 816 } } } 816 = { transfer_state_to = GER remove_core_of = JPS } }
+		
+		hidden_effect = { news_event = { id = KSR_news_events.2 hours = 6 } }
+		
+	}
+}
+
+
+# The Japanese refuse (German view)
+country_event = {
+	id = KSR_events.11
+	title = KSR_events.11.t
+	desc = KSR_events.11.d
+	picture = GFX_ksr_event_review_american_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.11.a
+		
+		ai_chance = {
+			factor = 200
+		}
+	}
+}
+
+
+# The Germans refuse (Japanese view)
+country_event = {
+	id = KSR_events.12
+	title = KSR_events.12.t
+	desc = KSR_events.12.d
+	picture = GFX_ksr_event_review_american_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.12.a
+		
+		ai_chance = {
+			factor = 200
+		}
+	}
+}
+
+
+
+
+
+
+
+# Establish the Canadian Reich
+country_event = {
+	id = KSR_events.13
+	title = KSR_events.13.t
+	desc = KSR_events.13.d
+	picture = GFX_ksr_ger_event_establish_american_reich
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.13.a
+		ai_chance = {
+			factor = 200
+		}
+
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 276 }
+					any_country = {
+						owns_state = 276
+						is_subject_of = GER
+					}
+				}
+			}
+			276 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 468 }
+					any_country = {
+						owns_state = 468
+						is_subject_of = GER
+					}
+				}
+			}
+			468 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 465 }
+					any_country = {
+						owns_state = 465
+						is_subject_of = GER
+					}
+				}
+			}
+			465 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 464 }
+					any_country = {
+						owns_state = 464
+						is_subject_of = GER
+					}
+				}
+			}
+			464 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 331 }
+					any_country = {
+						owns_state = 331
+						is_subject_of = GER
+					}
+				}
+			}
+			331 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 332 }
+					any_country = {
+						owns_state = 332
+						is_subject_of = GER
+					}
+				}
+			}
+			332 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 466 }
+					any_country = {
+						owns_state = 466
+						is_subject_of = GER
+					}
+				}
+			}
+			466 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 682 }
+					any_country = {
+						owns_state = 682
+						is_subject_of = GER
+					}
+				}
+			}
+			682 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 683 }
+					any_country = {
+						owns_state = 683
+						is_subject_of = GER
+					}
+				}
+			}
+			683 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 467 }
+					any_country = {
+						owns_state = 467
+						is_subject_of = GER
+					}
+				}
+			}
+			467 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 472 }
+					any_country = {
+						owns_state = 472
+						is_subject_of = GER
+					}
+				}
+			}
+			472 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 469 }
+					any_country = {
+						owns_state = 469
+						is_subject_of = GER
+					}
+				}
+			}
+			469 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 470 }
+					any_country = {
+						owns_state = 470
+						is_subject_of = GER
+					}
+				}
+			}
+			470 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 885 }
+					any_country = {
+						owns_state = 885
+						is_subject_of = GER
+					}
+				}
+			}
+			885 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 886 }
+					any_country = {
+						owns_state = 886
+						is_subject_of = GER
+					}
+				}
+			}
+			886 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 740 }
+					any_country = {
+						owns_state = 740
+						is_subject_of = GER
+					}
+				}
+			}
+			740 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 473 }
+					any_country = {
+						owns_state = 473
+						is_subject_of = GER
+					}
+				}
+			}
+			473 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 471 }
+					any_country = {
+						owns_state = 471
+						is_subject_of = GER
+					}
+				}
+			}
+			471 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 463 }
+					any_country = {
+						owns_state = 463
+						is_subject_of = GER
+					}
+				}
+			}
+			463 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		if = {
+			limit = {
+				OR = {
+					GER = { owns_state = 739 }
+					any_country = {
+						owns_state = 739
+						is_subject_of = GER
+					}
+				}
+			}
+			739 = { transfer_state_to = CRH add_core_of = CRH hidden_effect = { remove_core_of = USA remove_core_of = CAN } }
+		}
+		
+		FROM = { puppet = CRH }
+	}
+	option = {
+		name = KSR_events.13.b	
+	}
+}
+
+
+
+# Review the Canadian Partition Plan (German view)
+country_event = {
+	id = KSR_events.14
+	title = KSR_events.14.t
+	desc = KSR_events.14.d
+	picture = GFX_ksr_event_review_canadian_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.14.a
+		
+		ai_chance = {
+			factor = 200
+		}
+		
+		JAP = { country_event = { id = KSR_events.17 days = 2 } }
+	}
+	option = {
+		name = KSR_events.14.b
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+
+
+# Review the Canadian Partition Plan (Japanese view)
+country_event = {
+	id = KSR_events.15
+	title = KSR_events.15.t
+	desc = KSR_events.15.d
+	picture = GFX_ksr_event_review_canadian_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.15.a
+		
+		ai_chance = {
+			factor = 200
+		}
+		
+		GER = { country_event = { id = KSR_events.16 days = 2 } }
+	}
+	option = {
+		name = KSR_events.15.b
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+
+
+# Japanese Delegation for the Canadian Partition Plan (German view)
+country_event = {
+	id = KSR_events.16
+	title = KSR_events.16.t
+	desc = KSR_events.16.d
+	picture = GFX_ksr_event_review_canadian_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.16.a
+		
+		ai_chance = {
+			factor = 200
+		}
+		JAP = { country_event = { id = KSR_events.19 days = 2 } }
+	}
+	option = {
+		name = KSR_events.16.b
+		ai_chance = {
+			factor = 50
+		}
+		JAP = { country_event = { id = KSR_events.21 days = 2 } }
+	}
+}
+
+
+
+
+
+# German Delegation for the Canadian Partition Plan (Japanese view)
+country_event = {
+	id = KSR_events.17
+	title = KSR_events.17.t
+	desc = KSR_events.17.d
+	picture = GFX_ksr_event_review_canadian_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.17.a
+		
+		ai_chance = {
+			factor = 200
+		}
+		GER = { country_event = { id = KSR_events.18 days = 2 } }
+	}
+	option = {
+		name = KSR_events.17.b
+		ai_chance = {
+			factor = 50
+		}
+		GER = { country_event = { id = KSR_events.20 days = 2 } }
+	}
+}
+
+
+# The Japanese have agreed (German view)
+country_event = {
+	id = KSR_events.18
+	title = KSR_events.18.t
+	desc = KSR_events.18.d
+	picture = GFX_ksr_event_review_canadian_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.18.a
+		
+		ai_chance = {
+			factor = 200
+		}
+		
+		# Transfer the West to Japan
+		if = { limit = { OR = { JPS = { owns_state = 739 } JAP = { owns_state = 739 } GER = { owns_state = 739 } CRH = { owns_state = 739 } ANZ = { owns_state = 739 } } } 739 = { transfer_state_to = JAP remove_core_of = CRH } }
+		if = { limit = { OR = { JPS = { owns_state = 740 } JAP = { owns_state = 740 } GER = { owns_state = 740 } CRH = { owns_state = 740 } ANZ = { owns_state = 740 } } } 740 = { transfer_state_to = JAP remove_core_of = CRH } }
+		if = { limit = { OR = { JPS = { owns_state = 473 } JAP = { owns_state = 473 } GER = { owns_state = 473 } CRH = { owns_state = 473 } ANZ = { owns_state = 473 } } } 473 = { transfer_state_to = JAP remove_core_of = CRH } }
+		if = { limit = { OR = { JPS = { owns_state = 471 } JAP = { owns_state = 471 } GER = { owns_state = 471 } CRH = { owns_state = 471 } ANZ = { owns_state = 471 } } } 471 = { transfer_state_to = JAP remove_core_of = CRH } }
+
+		# Transfer the Rocky Mountains to the American Neutral Zone
+		if = { limit = { OR = { JPS = { owns_state = 885 } JAP = { owns_state = 885 } GER = { owns_state = 885 } CRH = { owns_state = 885 } ANZ = { owns_state = 885 } } } 885 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 886 } JAP = { owns_state = 886 } GER = { owns_state = 886 } CRH = { owns_state = 886 } ANZ = { owns_state = 886 } } } 886 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+
+		
+		# Transfer the East to Germany
+		if = { limit = { OR = { JPS = { owns_state = 472 } JAP = { owns_state = 472 } GER = { owns_state = 472 } CRH = { owns_state = 472 } ANZ = { owns_state = 472 } } } 472 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 470 } JAP = { owns_state = 470 } GER = { owns_state = 470 } CRH = { owns_state = 470 } ANZ = { owns_state = 470 } } } 470 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 469 } JAP = { owns_state = 469 } GER = { owns_state = 469 } CRH = { owns_state = 469 } ANZ = { owns_state = 469 } } } 469 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 467 } JAP = { owns_state = 467 } GER = { owns_state = 467 } CRH = { owns_state = 467 } ANZ = { owns_state = 467 } } } 467 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 683 } JAP = { owns_state = 683 } GER = { owns_state = 683 } CRH = { owns_state = 683 } ANZ = { owns_state = 683 } } } 683 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 682 } JAP = { owns_state = 682 } GER = { owns_state = 682 } CRH = { owns_state = 682 } ANZ = { owns_state = 682 } } } 682 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 276 } JAP = { owns_state = 276 } GER = { owns_state = 276 } CRH = { owns_state = 276 } ANZ = { owns_state = 276 } } } 276 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 466 } JAP = { owns_state = 466 } GER = { owns_state = 466 } CRH = { owns_state = 466 } ANZ = { owns_state = 466 } } } 466 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 332 } JAP = { owns_state = 332 } GER = { owns_state = 332 } CRH = { owns_state = 332 } ANZ = { owns_state = 332 } } } 332 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 468 } JAP = { owns_state = 468 } GER = { owns_state = 468 } CRH = { owns_state = 468 } ANZ = { owns_state = 468 } } } 468 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 465 } JAP = { owns_state = 465 } GER = { owns_state = 465 } CRH = { owns_state = 465 } ANZ = { owns_state = 465 } } } 465 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 464 } JAP = { owns_state = 464 } GER = { owns_state = 464 } CRH = { owns_state = 464 } ANZ = { owns_state = 464 } } } 464 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 331 } JAP = { owns_state = 331 } GER = { owns_state = 331 } CRH = { owns_state = 331 } ANZ = { owns_state = 331 } } } 331 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 730 } JAP = { owns_state = 730 } GER = { owns_state = 730 } CRH = { owns_state = 730 } ANZ = { owns_state = 730 } } } 730 = { transfer_state_to = GER remove_core_of = JPS } }
+	}
+}
+
+
+# The Germans have agreed (Japanese view)
+country_event = {
+	id = KSR_events.19
+	title = KSR_events.19.t
+	desc = KSR_events.19.d
+	picture = GFX_ksr_event_review_canadian_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.19.a
+		
+		ai_chance = {
+			factor = 200
+		}
+		
+		# Transfer the West to Japan
+		if = { limit = { OR = { JPS = { owns_state = 739 } JAP = { owns_state = 739 } GER = { owns_state = 739 } CRH = { owns_state = 739 } ANZ = { owns_state = 739 } } } 739 = { transfer_state_to = JAP remove_core_of = CRH } }
+		if = { limit = { OR = { JPS = { owns_state = 740 } JAP = { owns_state = 740 } GER = { owns_state = 740 } CRH = { owns_state = 740 } ANZ = { owns_state = 740 } } } 740 = { transfer_state_to = JAP remove_core_of = CRH } }
+		if = { limit = { OR = { JPS = { owns_state = 473 } JAP = { owns_state = 473 } GER = { owns_state = 473 } CRH = { owns_state = 473 } ANZ = { owns_state = 473 } } } 473 = { transfer_state_to = JAP remove_core_of = CRH } }
+		if = { limit = { OR = { JPS = { owns_state = 471 } JAP = { owns_state = 471 } GER = { owns_state = 471 } CRH = { owns_state = 471 } ANZ = { owns_state = 471 } } } 471 = { transfer_state_to = JAP remove_core_of = CRH } }
+
+		# Transfer the Rocky Mountains to the American Neutral Zone
+		if = { limit = { OR = { JPS = { owns_state = 885 } JAP = { owns_state = 885 } GER = { owns_state = 885 } CRH = { owns_state = 885 } ANZ = { owns_state = 885 } } } 885 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 886 } JAP = { owns_state = 886 } GER = { owns_state = 886 } CRH = { owns_state = 886 } ANZ = { owns_state = 886 } } } 886 = { transfer_state_to = ANZ remove_core_of = ARH remove_core_of = JPS } }
+
+		
+		# Transfer the East to Germany
+		if = { limit = { OR = { JPS = { owns_state = 472 } JAP = { owns_state = 472 } GER = { owns_state = 472 } CRH = { owns_state = 472 } ANZ = { owns_state = 472 } } } 472 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 470 } JAP = { owns_state = 470 } GER = { owns_state = 470 } CRH = { owns_state = 470 } ANZ = { owns_state = 470 } } } 470 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 469 } JAP = { owns_state = 469 } GER = { owns_state = 469 } CRH = { owns_state = 469 } ANZ = { owns_state = 469 } } } 469 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 467 } JAP = { owns_state = 467 } GER = { owns_state = 467 } CRH = { owns_state = 467 } ANZ = { owns_state = 467 } } } 467 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 683 } JAP = { owns_state = 683 } GER = { owns_state = 683 } CRH = { owns_state = 683 } ANZ = { owns_state = 683 } } } 683 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 682 } JAP = { owns_state = 682 } GER = { owns_state = 682 } CRH = { owns_state = 682 } ANZ = { owns_state = 682 } } } 682 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 276 } JAP = { owns_state = 276 } GER = { owns_state = 276 } CRH = { owns_state = 276 } ANZ = { owns_state = 276 } } } 276 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 466 } JAP = { owns_state = 466 } GER = { owns_state = 466 } CRH = { owns_state = 466 } ANZ = { owns_state = 466 } } } 466 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 332 } JAP = { owns_state = 332 } GER = { owns_state = 332 } CRH = { owns_state = 332 } ANZ = { owns_state = 332 } } } 332 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 468 } JAP = { owns_state = 468 } GER = { owns_state = 468 } CRH = { owns_state = 468 } ANZ = { owns_state = 468 } } } 468 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 465 } JAP = { owns_state = 465 } GER = { owns_state = 465 } CRH = { owns_state = 465 } ANZ = { owns_state = 465 } } } 465 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 464 } JAP = { owns_state = 464 } GER = { owns_state = 464 } CRH = { owns_state = 464 } ANZ = { owns_state = 464 } } } 464 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 331 } JAP = { owns_state = 331 } GER = { owns_state = 331 } CRH = { owns_state = 331 } ANZ = { owns_state = 331 } } } 331 = { transfer_state_to = GER remove_core_of = JPS } }
+		if = { limit = { OR = { JPS = { owns_state = 730 } JAP = { owns_state = 730 } GER = { owns_state = 730 } CRH = { owns_state = 730 } ANZ = { owns_state = 730 } } } 730 = { transfer_state_to = GER remove_core_of = JPS } }
+	}
+}
+
+
+# The Japanese refuse (German view)
+country_event = {
+	id = KSR_events.20
+	title = KSR_events.20.t
+	desc = KSR_events.20.d
+	picture = GFX_ksr_event_review_canadian_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.20.a
+		
+		ai_chance = {
+			factor = 200
+		}
+	}
+}
+
+
+# The Germans refuse (Japanese view)
+country_event = {
+	id = KSR_events.21
+	title = KSR_events.21.t
+	desc = KSR_events.21.d
+	picture = GFX_ksr_event_review_canadian_partition_plan
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.21.a
+		
+		ai_chance = {
+			factor = 200
+		}
+	}
+}
+
+
+# Germany transfers Transnistria to Romania
+country_event = {
+	id = KSR_events.22
+	title = KSR_events.22.t
+	desc = KSR_events.22.d
+	picture = GFX_report_event_generic_panzer_attack
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.22.a
+		
+		ai_chance = {
+			factor = 200
+		}
+	}
+}
+
+# Capital of the Ottoman Empire
+country_event = {
+	id = KSR_events.23
+	title = KSR_events.23.t
+	desc = KSR_events.23.d
+	picture = GFX_report_event_usa_election_generic
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.23.a
+		ai_chance = {
+			factor = 200
+		}
+		effect_tooltip = {
+			set_capital = { state = 797 }
+		}
+		
+		hidden_effect = { 
+			set_capital = { state = 797 remember_old_capital = no }
+		}		
+		
+	}
+	option = {
+		name = KSR_events.23.b
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_capital = { state = 797 }
+			set_province_name = { id = 9833 name = "Konstantiniye" }
+		}
+		
+		hidden_effect = { 
+			set_capital = { state = 797 remember_old_capital = no }
+			set_province_name = { id = 9833 name = "Konstantiniye" }
+		}		
+	}
+	option = {
+		name = KSR_events.23.c
+		ai_chance = {
+			factor = 100
+		}
+				
+	}
+}
+
+# Capital of the European Union
+country_event = {
+	id = KSR_events.24
+	title = KSR_events.24.t
+	desc = KSR_events.24.d
+	picture = GFX_report_event_usa_election_generic
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = KSR_events.24.a
+		ai_chance = {
+			factor = 200
+		}
+		effect_tooltip = {
+			set_capital = { state = 6 }
+		}
+		
+		hidden_effect = { 
+			set_capital = { state = 6 remember_old_capital = no }
+		}		
+		
+	}
+	option = {
+		name = KSR_events.24.b
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_capital = { state = 8 }
+		}
+		
+		hidden_effect = { 
+			set_capital = { state = 8 remember_old_capital = no }
+		}		
+	}
+	option = {
+		name = KSR_events.24.c
+		ai_chance = {
+			factor = 100
+		}
+				
+	}
+}

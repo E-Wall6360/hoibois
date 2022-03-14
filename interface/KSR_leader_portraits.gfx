@@ -1,0 +1,39 @@
+spriteTypes = {
+
+# Kovas' States Rework
+
+	spriteType = {
+		name = "GFX_Portrait_Samogitia_Puovels_Plechavecius"
+		texturefile = "gfx/leaders/SMG/Portrait_Samogitia_Puovels_Plechavecius.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_ARH_george_rockwell"
+		texturefile = "gfx/leaders/ARH/Portrait_ARH_george_rockwell.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_JPS_general_yamori"
+		texturefile = "gfx/leaders/JPS/Portrait_JPS_general_yamori.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_San_Marino_Regency"
+		texturefile = "gfx/leaders/SMR/Portrait_San_Marino_Regency.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_LCH_jozef_hoop"
+		texturefile = "gfx/leaders/LCH/Portrait_LCH_jozef_hoop.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_VAT_pius_xi"
+		texturefile = "gfx/leaders/VAT/Portrait_VAT_pius_xi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_VAT_pius_xii"
+		texturefile = "gfx/leaders/VAT/Portrait_VAT_pius_xii.dds"
+	}
+}

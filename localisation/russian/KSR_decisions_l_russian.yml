@@ -1,0 +1,52 @@
+﻿l_russian: 
+ LIT_lithuanization_effort_category:0 "Эффект Литвинизации"
+ LIT_lithuanization_effort_category_desc:0 "Многие из  национальных  земель Литвы были утрачены во время войн за независимость, включая историческую столицу Вильнюс. После почти двух десятилетий культурного угнетения литовцев эти земели теперь могут быть полностью интегрированы обратно в  родную гавань".
+ 
+ LIT_restore_vilnius_as_the_capital:0 "Восстановить Вильнюс как столицу"
+ LIT_move_temporary_capital_to_kaunas:0 "Перенести временно столицу в Каунас"
+ LIT_reintegrate_vilnius:0 "Интегрировать Вильнюс"
+ LIT_reintegrate_gardinas:0 "Интегрировать Гардины"
+ LIT_reintegrate_suvalkai:0 "Интегрировать Сувалкай"
+ LIT_reintegrate_breslauja:0 "Интегрировать Бреслау"
+ LIT_integrate_lithuania_minor:0 "Интегрировать Тильже"
+ LIT_integrate_valkaviskas:0 "Интегрировать Валкавискас"
+ LIT_integrate_balstoge:0 "Интегрировать Балстог"
+ 
+ FIN_finnicization_effort_category:0 "Эффект Финнизации"
+ FIN_finnicization_effort_category_desc:0 "Финский народ упорно боролся за то, чтобы отделиться от поздней Российской империи, и ему это удалось. Однако существуют некоторые территориальные и культурные несоответствия за пределами границ первого царства Столберга, которые нужно исправить"
+ FIN_rename_leningrad:0 "Переименовать Ленинград"
+ FIN_integrate_muurmanni:0 "Интегрировать Мурманск"
+ FIN_integrate_karjala:0 "Интегрировать Олонец"
+ FIN_integrate_vienan_karjala:0 "Интегрировать Онегу"
+ FIN_integrate_finnmark:0 "Интегрировать Финнмарк"
+ FIN_integrate_ingria:0 "Интегрировать Ингрию"
+ FIN_integrate_tornedalen:0 "Интегрировать Торнедален"
+ 
+ HUN_magyarization_effort_category:0 "Эффект Мадьяризации"
+ HUN_magyarization_effort_category_desc:0 "Трианонский договор, подписанный в 1920 году, разрушил старое Королевство Венгрия не только путем введения экономических ограничений, но и отнял большую часть нашей территории и передал ее соседним отколовшимся государствам. Теперь, когда эти земли снова находятся под нашим контролем, мы можем реинтегрировать территорию, которая принадлежала нам много веков".
+ HUN_integrate_burgenland:0 "Интегрировать Бургенланд"
+ HUN_integrate_southern_slovakia:0 "Интегрировать Южную Словакию"
+ HUN_integrate_western_slovakia:0 "Интегрировать Западную Словакию"
+ HUN_integrate_eastern_slovakia:0 "Интегрировать Восточную Словакию"
+ HUN_integrate_carpathian_ruthenia:0 "Интегрировать Карпатскую Русь"
+ HUN_integrate_north_transylvania:0 "Интегрировать Северную Трансильванию"
+ HUN_integrate_transylvania:0 "Интегрировать Трансильванию"
+ HUN_integrate_crisana:0 "Интегрировать Крисану"
+ HUN_integrate_banat:0 "Интегрировать Банат"
+ HUN_integrate_west_banat:0 "Интегрировать Западный Банат"
+ HUN_integrate_vojvodina:0 "Интегрировать Воеводину"
+ 
+ GER_germanization_effort_category:0 "Эффект Германизации"
+ GER_germanization_effort_category_desc:0 "Германия уступила значительную часть своей территории соседним государствам из-за катастрофического Версальского договора, подписанного в 1919 году. Теперь, когда часть этой территории вернулась под наш контроль, мы можем начать процесс реинтеграции".
+ GER_integrate_sonderjylland:0 "Интегрировать Сендерджилланд"
+ GER_integrate_poznan:0 "Интегрировать Познань"
+ GER_integrate_gdynia:0 "Интегрировать Гдыню"
+ GER_integrate_katowice:0 "Интегрировать Катовице"
+ GER_integrate_danzig:0 "Интегрировать Данциг"
+ GER_integrate_torun:0 "Интегрировать Торунь"
+ GER_integrate_eupen_malmedy:0 "Интегрировать Эйпен-Мальмеди"
+ 
+ KSR_occupation_policies_category:0 "Оккупационная политика"
+ KSR_occupation_policies_category_desc:0 "Наши завоевания в чужих землях не только расширили нашу сферу влияния, но и создали стратегические проблемы. Мы можем внедрить новые оккупационные структуры, чтобы облегчить трудности управления большой страной".
+ KSR_JAP_establish_pacific_states:0 "Создание Тихоокеанского государства"
+ KSR_JAP_transfer_territories_to_pacific_states:0 "Передача территорий Тихоокеанскому государствам"

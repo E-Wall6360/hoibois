@@ -1,0 +1,48 @@
+
+state={
+	id=906
+	name="STATE_906"
+	manpower = 621550
+	resources={
+		steel=21
+		aluminium=7
+	}
+
+
+	state_category = city
+	
+	history={
+		owner = GER
+		victory_points = { 
+			11531 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = GER
+		add_core_of = SAA
+
+		1939.1.1 = {
+			buildings = {
+				air_base = 6
+				radar_station = 1
+			}
+		}
+	
+		set_demilitarized_zone = yes
+	
+	
+		1936.3.7 = {
+			set_demilitarized_zone = no
+		}
+	}
+
+	provinces={
+		11531
+	}
+	
+
+	local_supplies=0.0 
+}

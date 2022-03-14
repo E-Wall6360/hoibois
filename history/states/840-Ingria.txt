@@ -1,0 +1,25 @@
+
+state={
+	id=840
+	name="STATE_840" # Ingria
+	manpower = 341819
+	
+	state_category = rural
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+		add_core_of = SOV
+		victory_points = {
+			3120 1
+		}
+	}
+
+	provinces={
+		126 3120 181 11080 104 11186 9097 9120 9408
+	}
+
+	local_supplies=0.0 
+}

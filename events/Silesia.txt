@@ -1,0 +1,26 @@
+﻿###########################
+# Silesia Events
+###########################
+
+add_namespace = silesia
+
+# Silesia loses it's Commonwealth puppet cosmetic tag after not being a puppet of it anymore
+country_event = {
+	id = silesia.1
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			NOT = { SIL = { is_subject_of = POL } }
+			NOT = { SIL = { is_subject_of = LIT } }
+		}
+		SIL = { has_cosmetic_tag = COMMONWEALTH_SILESIA }
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	hidden = yes
+
+	immediate = {
+		SIL = { drop_cosmetic_tag = yes }
+	}
+}

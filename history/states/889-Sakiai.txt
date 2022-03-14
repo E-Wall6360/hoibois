@@ -1,0 +1,22 @@
+
+state={
+	id=889
+	name="STATE_889" # Šakiai
+
+	history={
+		owner = LIT
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = LIT
+		add_core_of = SMG
+
+	}
+
+	provinces={
+		6407
+	}
+	manpower=49725
+	state_category=pastoral
+}

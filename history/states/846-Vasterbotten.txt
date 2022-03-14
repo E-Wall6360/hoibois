@@ -1,0 +1,28 @@
+
+state={
+	id=846
+	name="STATE_846" # Vasterbotten
+	manpower = 175677
+	resources={
+		tungsten=5 # was: 70
+		steel= 20 # was: 80
+		chromium = 10 # was: 40
+	}
+	
+	state_category = rural
+
+	history={
+		owner = SWE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SWE
+	}
+
+	provinces={
+		11073 6125 6165 9186 9226 9108 6083 9143 11201 6132 3113 182 118 11067 9220 6161 6024 3104 9093
+	
+	}
+
+	local_supplies=0.0 
+}

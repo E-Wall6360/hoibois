@@ -1,0 +1,36 @@
+﻿l_russian:
+ SMG_neutrality_party:0 "Кабинет Плехавечюса"
+ SMG_neutrality_party_long:0 "Политический Кабинет Плехавечюса"
+ SMG_fascism_party:0 "Жемайтийские националисты"
+ SMG_democratic_party:0 "ЖКД"
+ SMG_democratic_party_long:0 "Жемайтийские христианские демократы"
+ SMG_communism_party:0 "ЖКП"
+ SMG_communism_party_long:0 "Жемайтийская коммунистическая партия"
+ 
+ LCH_neutrality_party:0 "Дом Франца I"
+ LCH_fascism_party:0 "НННДХ"
+ LCH_fascism_party_long:0 "Народное Немецкое Национальное Движение Лихтенштейне"
+ LCH_democratic_party:0 "Прогрессивная Гражданская Партия"
+ LCH_communism_party:0 "СПЛ"
+ LCH_communism_party_long:0 "Социалистическая партия Лихтенштейна"
+ 
+ SMR_democratic_party:0 "Капитаны-регенты Сан-Марино"
+ SMR_fascism_party:0 "Саммарийская Фашистская Партия"
+ 
+ VAT_neutrality_party:0 "Папская власть"
+ VAT_fascism_party:0 "Папская власть"
+ VAT_democratic_party:0 "XРПВ"
+ VAT_democratic_party_long:0 "Христианская Республиканская партия Ватикана"
+ VAT_communism_party:0 "ХКПВ"
+ VAT_communism_party_long:0 "Христианская Коммунистическая партия Ватикана"
+ 
+ MNC_fascism_party:0 "Дом Гримальди"
+ MNC_neutrality_party:0 "Дом Гримальди"
+ MNC_democratic_party:0 "ДДС"
+ MNC_democratic_party_long:0 "Движение Демократического Союза"
+ MNC_communism_party:0 "Анархистский директорат"
+ 
+ ADR_neutrality_party:0 "Соправительство принца Андорры"
+ ADR_fascism_party:0 "Соправительство принца Андорры"
+ ADR_communism_party:0 "Социалистическое движение Андорры"
+ ADR_democratic_party:0 "Андоррский союз"

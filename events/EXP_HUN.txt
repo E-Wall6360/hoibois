@@ -1,0 +1,335 @@
+###########################
+# Hungary Expansionism events
+###########################
+
+add_namespace = EXP_HUN_events
+
+# Integrate Burgenland
+country_event = {
+	id = EXP_HUN_events.1
+	title = EXP_HUN_events.1.t
+	desc = EXP_HUN_events.1.d
+	picture = GFX_exp_hun_event_integrate_burgenland
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_HUN_events.1.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 3700 name = "Kismarton" }
+			855 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 3700 name = "Kismarton" }
+			855 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}		
+		
+	}
+}
+
+# Integrate Southern Slovakia
+country_event = {
+	id = EXP_HUN_events.2
+	title = EXP_HUN_events.2.t
+	desc = EXP_HUN_events.2.d
+	picture = GFX_exp_hun_event_integrate_southern_slovakia
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_HUN_events.2.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 6573 name = "Kassa" }
+			664 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 6573 name = "Kassa" }
+			664 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}		
+		
+	}
+}
+
+# Integrate Western Slovakia
+country_event = {
+	id = EXP_HUN_events.3
+	title = EXP_HUN_events.3.t
+	desc = EXP_HUN_events.3.d
+	picture = GFX_exp_hun_event_integrate_western_slovakia
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_HUN_events.3.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 9692 name = "Poszony" }
+			set_province_name = { id = 11539 name = "Zsolna" }
+			70 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 9692 name = "Poszony" }
+			set_province_name = { id = 11539 name = "Zsolna" }
+			70 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}		
+		
+	}
+}
+
+# Integrate Eastern Slovakia
+country_event = {
+	id = EXP_HUN_events.4
+	title = EXP_HUN_events.4.t
+	desc = EXP_HUN_events.4.d
+	picture = GFX_exp_hun_event_integrate_eastern_slovakia
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_HUN_events.4.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 3581 name = "Eperjes" }
+			71 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 3581 name = "Eperjes" }
+			71 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}		
+		
+	}
+}
+
+# Integrate Carpathian Ruthenia
+country_event = {
+	id = EXP_HUN_events.5
+	title = EXP_HUN_events.5.t
+	desc = EXP_HUN_events.5.d
+	picture = GFX_exp_hun_event_integrate_carpathian_ruthenia
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_HUN_events.5.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 3548 name = "Munkács" }
+			73 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 3548 name = "Munkács" }
+			73 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}		
+		
+	}
+}
+
+# Integrate North Transylvania
+country_event = {
+	id = EXP_HUN_events.6
+	title = EXP_HUN_events.6.t
+	desc = EXP_HUN_events.6.d
+	picture = GFX_exp_hun_event_integrate_north_transylvania
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_HUN_events.6.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 6711 name = "Kolozsvár" }
+			76 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 6711 name = "Kolozsvár" }
+			76 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}		
+		
+	}
+}
+
+# Integrate Transylvania
+country_event = {
+	id = EXP_HUN_events.7
+	title = EXP_HUN_events.7.t
+	desc = EXP_HUN_events.7.d
+	picture = GFX_exp_hun_event_integrate_transylvania
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_HUN_events.7.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 690 name = "Brassó" }
+			84 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 690 name = "Brassó" }
+			84 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}		
+		
+	}
+}
+
+# Integrate Crisana
+country_event = {
+	id = EXP_HUN_events.8
+	title = EXP_HUN_events.8.t
+	desc = EXP_HUN_events.8.d
+	picture = GFX_exp_hun_event_integrate_crisana
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_HUN_events.8.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			83 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			83 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}		
+		
+	}
+}
+
+# Integrate Banat
+country_event = {
+	id = EXP_HUN_events.9
+	title = EXP_HUN_events.9.t
+	desc = EXP_HUN_events.9.d
+	picture = GFX_exp_hun_event_integrate_banat
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_HUN_events.9.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 9606 name = "Temesvár" }
+			82 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 9606 name = "Temesvár" }
+			82 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}		
+		
+	}
+}
+
+# Integrate West Banat
+country_event = {
+	id = EXP_HUN_events.10
+	title = EXP_HUN_events.10.t
+	desc = EXP_HUN_events.10.d
+	picture = GFX_exp_hun_event_integrate_west_banat
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_HUN_events.10.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 3614 name = "Pancsova" }
+			764 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 3614 name = "Pancsova" }
+			764 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}		
+		
+	}
+}
+
+# Integrate Vojvodina
+country_event = {
+	id = EXP_HUN_events.11
+	title = EXP_HUN_events.11.t
+	desc = EXP_HUN_events.11.d
+	picture = GFX_exp_hun_event_integrate_vojvodina
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_HUN_events.11.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 619 name = "Újvidék" }
+			45 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 619 name = "Újvidék" }
+			45 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}		
+		
+	}
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=868
+	name="STATE_868"
+	manpower = 179850
+	
+	state_category = town
+	
+	history={
+		owner = PAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			4611 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = PAN
+		victory_points = {
+			4611 1
+		}
+
+	}
+
+	provinces={
+		1633 4611 4624
+	}
+
+	local_supplies=0.0 
+}

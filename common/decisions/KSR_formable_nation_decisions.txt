@@ -1,0 +1,134 @@
+form_peru_bolivian_confederation_category = {
+
+	form_peru_bolivian_confederation = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = PRU
+				original_tag = BOL
+			}
+		}
+
+		available = {
+			is_subject = no
+			# Peru
+			custom_trigger_tooltip = {
+				tooltip = form_country_peru_required_states_tt
+				controls_state = 303
+				controls_state = 490
+				controls_state = 491
+				controls_state = 492
+				controls_state = 494	
+			}
+			# Bolivia
+			custom_trigger_tooltip = {
+				tooltip = form_country_bolivia_required_states_tt
+				controls_state = 302
+				controls_state = 487
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = PRU
+				original_tag = BOL
+			}
+		}
+		fire_only_once = yes
+		complete_effect = {
+			861 = { add_core_of = ROOT }
+			862 = { add_core_of = ROOT }
+			863 = { add_core_of = ROOT }
+			864	= { add_core_of = ROOT }
+			688 = { add_core_of = ROOT }
+			859 = { add_core_of = ROOT }
+			860 = { add_core_of = ROOT }
+			956 = { add_core_of = ROOT }
+			
+			
+			# Peru
+			custom_effect_tooltip = form_country_peru_coring_states_tt
+			hidden_effect = {
+				303 = { add_core_of = ROOT }
+				490 = { add_core_of = ROOT }
+				491 = { add_core_of = ROOT }
+				492 = { add_core_of = ROOT }
+				494 = { add_core_of = ROOT }
+			}	
+			# Bolivia
+			custom_effect_tooltip = form_country_bolivia_coring_states_tt
+			hidden_effect = {
+				302 = { add_core_of = ROOT }
+				487 = { add_core_of = ROOT }
+			}
+			
+			set_cosmetic_tag = PERU_BOLIVIAN_CONFEDERATION
+			
+			hidden_effect = {
+				news_event = { id = KSR_news_events.1 hours = 6 }
+				country_event = { id = KSR_events.2 days = 2 }
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+
+form_papal_states_category = {
+
+	form_papal_states = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = VAT
+		}
+
+		available = {
+			is_subject = no
+
+			owns_state = 2
+			owns_state = 157
+			owns_state = 161	
+		}
+
+		visible = {
+			original_tag = VAT
+		}
+		fire_only_once = yes
+		complete_effect = {
+		
+			2 = { add_core_of = ROOT }
+			157 = { add_core_of = ROOT }
+			161 = { add_core_of = ROOT }
+			
+			set_capital = {
+			  state = 2 
+			  remember_old_capital = no
+			}
+			
+			set_cosmetic_tag = PAPAL_STATES
+			
+			hidden_effect = {
+				news_event = { id = KSR_news_events.3 hours = 6 }
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

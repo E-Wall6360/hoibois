@@ -1,0 +1,285 @@
+HUN_magyarization_effort_category = {
+
+	HUN_integrate_burgenland = {
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			owns_state = 855
+			has_full_control_of_state = 855
+			NOT = { 855 = { is_core_of = HUN } }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 855
+			NOT = { 855 = { is_core_of = HUN } }
+		}
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_HUN_events.1 } }
+		}
+	}
+	HUN_integrate_southern_slovakia = {
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			owns_state = 664
+			has_full_control_of_state = 664
+			NOT = { 664 = { is_core_of = HUN } }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 664
+			NOT = { 664 = { is_core_of = HUN } }
+		}
+
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_HUN_events.2 } }
+		}
+	}
+	HUN_integrate_western_slovakia = {
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			owns_state = 70
+			has_full_control_of_state = 70
+			NOT = { 70 = { is_core_of = HUN } }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 70
+			NOT = { 70 = { is_core_of = HUN } }
+		}
+
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_HUN_events.3 } }
+		}
+	}
+	
+	HUN_integrate_eastern_slovakia = {
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			owns_state = 71
+			has_full_control_of_state = 71
+			NOT = { 71 = { is_core_of = HUN } }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 71
+			NOT = { 71 = { is_core_of = HUN } }
+		}
+
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_HUN_events.4 } }
+		}
+	}
+	
+	HUN_integrate_carpathian_ruthenia = {
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			owns_state = 73
+			has_full_control_of_state = 73
+			NOT = { 73 = { is_core_of = HUN } }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 73
+			NOT = { 73 = { is_core_of = HUN } }
+		}
+
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_HUN_events.5 } }
+		}
+	}
+	
+	HUN_integrate_north_transylvania = {
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			owns_state = 76
+			has_full_control_of_state = 76
+			NOT = { 76 = { is_core_of = HUN } }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 76
+			NOT = { 76 = { is_core_of = HUN } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_HUN_events.6 } }
+		}
+	}
+	
+	HUN_integrate_transylvania = {
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			owns_state = 84
+			has_full_control_of_state = 84
+			NOT = { 84 = { is_core_of = HUN } }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 84
+			NOT = { 84 = { is_core_of = HUN } }
+		}
+
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_HUN_events.7 } }
+		}
+	}
+	
+	HUN_integrate_crisana = {
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			owns_state = 83
+			has_full_control_of_state = 83
+			NOT = { 83 = { is_core_of = HUN } }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 83
+			NOT = { 83 = { is_core_of = HUN } }
+		}
+
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_HUN_events.8 } }
+		}
+	}
+	
+	HUN_integrate_banat = {
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			owns_state = 82
+			has_full_control_of_state = 82
+			NOT = { 82 = { is_core_of = HUN } }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 82
+			NOT = { 82 = { is_core_of = HUN } }
+		}
+
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_HUN_events.9 } }
+		}
+	}
+	
+	HUN_integrate_west_banat = {
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			owns_state = 764
+			has_full_control_of_state = 764
+			NOT = { 764 = { is_core_of = HUN } }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 764
+			NOT = { 764 = { is_core_of = HUN } }
+		}
+
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_HUN_events.10 } }
+		}
+	}
+	
+	HUN_integrate_vojvodina = {
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			owns_state = 45
+			has_full_control_of_state = 45
+			NOT = { 45 = { is_core_of = HUN } }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 45
+			NOT = { 45 = { is_core_of = HUN } }
+		}
+
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_HUN_events.11 } }
+		}
+	}
+}

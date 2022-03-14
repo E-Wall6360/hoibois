@@ -1,0 +1,43 @@
+﻿###########################
+# Bohmen-Mahren Protectorate Events
+###########################
+
+add_namespace = samogitia
+
+# Samogitia renames it's cities to the Samogitian language
+country_event = {
+	id = samogitia.1
+	fire_only_once = yes
+	trigger = {
+		OR = {
+			SMG = { owns_state = 189 }
+			SMG = { owns_state = 839 }
+			SMG = { owns_state = 889 }
+		}
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				SMG = {
+					owns_state = 189
+				}
+			}
+			set_province_name = { id = 6314 name = "Palonga" }
+			set_province_name = { id = 9731 name = "Telšē" }
+		}
+		if = {
+			limit = {
+				SMG = {
+					owns_state = 839
+				}
+			}
+			set_province_name = { id = 6376 name = "Šiaulē" }
+			set_province_name = { id = 3337 name = "Jorbarks" }
+		}
+	}
+}

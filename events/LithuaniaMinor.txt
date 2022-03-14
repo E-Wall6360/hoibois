@@ -1,0 +1,40 @@
+﻿###########################
+# Bohmen-Mahren Protectorate Events
+###########################
+
+add_namespace = lithuaniaminor
+
+# Samogitia renames it's cities to the Samogitian language
+country_event = {
+	id = lithuaniaminor.1
+	fire_only_once = yes
+	trigger = {
+		OR = {
+			LIM = { owns_state = 188 }
+			LIM = { owns_state = 838 }
+		}
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				LIM = {
+					owns_state = 188
+				}
+			}
+			set_province_name = { id = 3288 name = "Klaipėda" }
+		}
+		if = {
+			limit = {
+				LIM = {
+					owns_state = 838
+				}
+			}
+			set_province_name = { id = 281 name = "Tilžė" }
+		}
+	}
+}

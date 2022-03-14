@@ -1,0 +1,23 @@
+state=
+{
+	id=927
+	name="STATE_927"
+	manpower = 61250
+	
+	state_category = pastoral
+	
+	history =
+	{
+		owner = HUN
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = HUN
+		add_core_of = SLV
+	}
+	provinces={
+		6672
+	}
+	
+	local_supplies=0.0 
+}

@@ -1,0 +1,63 @@
+﻿###########################
+# Bohmen-Mahren Protectorate Events
+###########################
+
+add_namespace = bohmenmahren
+
+# Bohmen-Mahren loses cores after not controlling it's territory anymore
+country_event = {
+	id = bohmenmahren.1
+	fire_only_once = yes
+	trigger = {
+		NOT = { RBM = { controls_state = 9 } }
+		NOT = { RBM = { controls_state = 937 } }
+		NOT = { RBM = { controls_state = 75 } }
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	hidden = yes
+
+	immediate = {
+		9 = { remove_core_of = RBM }
+		937 = { remove_core_of = RBM }
+		75 = { remove_core_of = RBM }
+	}
+}
+
+# Bohmen-Mahren is removed and replaced with Czechia/Czechoslovakia whenever it's not a puppet of Germany
+country_event = {
+	id = bohmenmahren.2
+	fire_only_once = yes
+	trigger = {
+		NOT = { RBM = { is_subject_of = GER } }
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				9 = { is_owned_by = RBM }
+			}
+			CZE = { transfer_state = 9 }
+		}
+		if = {
+			limit = {
+				937 = { is_owned_by = RBM }
+			}
+			CZE = { transfer_state = 937 }
+		}
+		if = {
+			limit = {
+				75 = { is_owned_by = RBM }
+			}
+			CZE = { transfer_state = 75 }
+		}
+		9 = { remove_core_of = RBM }
+		937 = { remove_core_of = RBM }
+		75 = { remove_core_of = RBM }
+	}
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=376
+	name="STATE_376"
+	manpower = 140520
+	
+	state_category = rural
+	
+	resources={
+		oil=5 # was: 20
+		aluminium=18 # was: 52
+	}
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1972 5044 10645 10914
+	}
+	
+
+	local_supplies=0.0 
+}

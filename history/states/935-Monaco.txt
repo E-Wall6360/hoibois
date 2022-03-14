@@ -1,0 +1,26 @@
+
+state={
+	id=935
+	name="STATE_935"
+	manpower = 18140
+	
+	
+	state_category = rural
+	
+	history={
+		owner = MNC
+		buildings = {
+
+		}
+		victory_points = {
+			13337 1
+		}
+		add_core_of = MNC
+	}
+
+	provinces={
+		13337
+	}
+
+	local_supplies=0.0 
+}

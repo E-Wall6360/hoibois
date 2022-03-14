@@ -1,0 +1,33 @@
+
+state={
+	id=900
+	name="STATE_900"
+	manpower = 189500
+	resources={
+		steel=2 # was: 36
+		aluminium=1 # was: 12
+	}
+	
+	state_category = town
+
+	history={
+		owner = GER
+		victory_points = {
+			6282 5
+		}
+		buildings = {
+			infrastructure = 3
+			6282 = {
+				naval_base = 4
+
+			}
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		6282
+	}
+
+	local_supplies=4.0 
+}

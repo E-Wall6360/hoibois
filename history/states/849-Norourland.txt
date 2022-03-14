@@ -1,0 +1,25 @@
+state=
+{
+	id=849
+	name="STATE_849"
+	manpower = 16110
+	
+	state_category = rural
+	
+	
+	history=
+	{
+		owner = DEN
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = DEN
+		add_core_of = ICE
+	}
+	provinces=
+	{
+		4861 12689 13253 13254 13260 13261 13262 13263 13266 13268 13269 13270 13271 13272 13273 13274 13275 13276 13277 13278 13279 13280 13281 13282 13283 13284 13285 13286 13292 13293 13294	
+	}
+
+	local_supplies=0.0 
+}

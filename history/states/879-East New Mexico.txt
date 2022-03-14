@@ -1,0 +1,29 @@
+
+state={
+	id=879
+	name="STATE_879" # East New Mexico
+	manpower = 42520
+	
+	state_category = rural
+	
+	resources={
+		oil=2
+		aluminium=3
+	}
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		10867 13321 13322
+	}
+	
+
+	local_supplies=0.0 
+}

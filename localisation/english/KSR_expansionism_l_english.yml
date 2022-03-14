@@ -1,0 +1,145 @@
+﻿l_english:
+ EXP_LIT_events.1.t:0 "Vilnius reunites with the fatherland"
+ EXP_LIT_events.1.d:0 "The Polish-Lithuanian War of 1920 concluded with the unfortunate occupation of Vilnius by Polish General Żeligowski's forces. Lithuanians were not able to retake their historical capital in time before the intervention of the League of Nations, so the occupation by Poland formed the basis for severed diplomatic relations between Lithuania and Poland for decades.\n\nNow that Lithuania once again controls Vilnius, it is only natural that we reunite it with the Fatherland and begin reverting the cultural damage that Poland has bestowed on Duke Gediminas' city."
+ EXP_LIT_events.1.a:0 "Vilnius is Lithuanian and always will be."
+ 
+ EXP_LIT_events.2.t:0 "The government moves back to Vilnius"
+ EXP_LIT_events.2.d:0 "The Grand Duchy of Lithuania was founded in the lands around Vilnius. By the reign of Duke Gediminas in the 14th century, Vilnius became the designated capital seat of the Lithuanian country for centuries. However, since the dissolution of the Commonwealth, Vilnius has been nothing but a governorate-centre in the Russian Empire and, as of recently, a mere playing card in Pilsudski's small game of imperialism.\n\nAs the sole claimant to the legacy of the Grand Duchy of Lithuania, the once-biggest country in Europe, it is only natural that we move our government back to Vilnius."
+ EXP_LIT_events.2.a:0 "The legacy of the iron wolf lives on."
+ 
+ EXP_LIT_events.3.t:0 "Gardinas and Lyda return to Lithuania"
+ EXP_LIT_events.3.d:0 "Gardinas and Lyda are both important cultural centres of the lower Lithuanian realm and have been for centuries. After declaring independence during the Great War, the Smetona administration has come into terms with Soviet Russia in 1920 with regards to the territory of Lithuania, which included both Gardinas and Lyda. However, just like with Vilnius, the Polish have taken both cities during their offensive against the Lithuanians and the Red Army.\n\nWith the territory now under our control, we can begin the process of reintegrating the cities back into the nation which founded them."
+ EXP_LIT_events.3.a:0 "Retaking the Grand Duchy, one step at a time."
+ 
+ EXP_LIT_events.4.t:0 "The Breslauja lands"
+ EXP_LIT_events.4.d:0 "Breslauja and it's territory which aligns itself neatly to the Vilnius Region has always acted as a cultural borderland between the Baltic Lithuanians and the Slavs within the Grand Duchy of Lithuania, but inhabited by Lithuanians nonetheless. Lenin's Russia has agreed to lease the Breslauja region to us after the Great War, but the Polish have interrupted this transition by occupying the entirety of the Vilnius Region from Lithuania.\n\nNow that we have Breslauja back in Lithuania, it is only reasonable that we attach it back in cultural terms aswell."
+ EXP_LIT_events.4.a:0 "Breslauja is ours again."
+ 
+ EXP_LIT_events.5.t:0 "Suvalkai wrestled from Polish control"
+ EXP_LIT_events.5.d:0 "Suvalkai has been part of the core Yotvingian territory before the unification of Lithuania in the 13th century. The Yotvingians have later become an integral part of Lithuania, which in turn made Suvalkai a prominent city within the Grand Duchy of Lithuania. After their offensive in 1920, the Polish have attached Suvalkai and it's region to the Białystok voivodeship and began culturally integrating it.\n\nAs Suvalkai is once again back under our control, we must rid the city and it's land of the dent that was Polish cultural occupation and properly reassign the territory back into Lithuania."
+ EXP_LIT_events.5.a:0 "Polish no more."
+ 
+ EXP_LIT_events.6.t:0 "Lithuania Minor joins the fatherland"
+ EXP_LIT_events.6.d:0 "Tilžė and it's surrounding lands were referred to as Lithuania Minor not only because of ethnic composition, but also because of it's understated importance to Lithuanian history outside of Lithuania's borders. While under German control, Lithuania Minor has produced many cultural figures, such as Martynas Mažvydas who in turn wrote the first ever book in the Lithuanian language in 1547.\n\nFinally, Lithuania Minor can be brought together with the fatherland for the first time ever, marking it one of the most important historical moments in Lithuania's history."
+ EXP_LIT_events.6.a:0 "Lithuania Minor welcomes it's true owners."
+ 
+ EXP_LIT_events.7.t:0 "Lithuania Minor joins the fatherland"
+ EXP_LIT_events.7.d:0 "Tilžė and it's surrounding lands were referred to as Lithuania Minor not only because of ethnic composition, but also because of it's understated importance to Lithuanian history outside of Lithuania's borders. While under German control, Lithuania Minor has produced many cultural figures, such as Martynas Mažvydas who in turn wrote the first ever book in the Lithuanian language in 1547.\n\nFinally, Lithuania Minor can be brought together with the fatherland for the first time ever, marking it one of the most important historical moments in Lithuania's history."
+ EXP_LIT_events.7.a:0 "Lithuania Minor welcomes it's true owners."
+ 
+ EXP_LIT_events.8.t:0 "Tempoary capital in Kaunas"
+ EXP_LIT_events.8.d:0 "It is sometimes unfortunate that history repeats itself, and now we are back in the same situation as in 1920 where Vilnius is controlled by a foreign country.\n\nThe government cannot operate from a city that is not under our control, which is why we must move the temporary capital to the second largest city, Kaunas, and hope that the situation changes in the future."
+ EXP_LIT_events.8.a:0 "The loss of Vilnius is devastating."
+ 
+ EXP_LIT_events.9.t:0 "The old Yotvingian land of Valkaviskas"
+ EXP_LIT_events.9.d:0 "The lands around Valkaviskas have belonged to Baltic tribes ever since the fall of the Kievan' Rus. During the German occupation in 1918, the Kaiser's government included Valkaviskas as a part of the short-lived Kingdom of Lithuania under Mindaugas II. Throughout history, the land failed to stay in Lithuanian control due to constant Polish and Belarusian interferences.\n\nHaving this territory under our control, we can begin the first steps towards reintegrating it back into the Baltic realm. After all, it is old Lithuanian territory."
+ EXP_LIT_events.9.a:0 "The ressurrection of Mindaugas' realm."
+ 
+ EXP_LIT_events.10.t:0 "The old Lithuanian-Polish borderlands"
+ EXP_LIT_events.10.d:0 "Balstogė as a city was first started thanks to Lithuanian nobles granting this land to the Polish back in the 15th century. The land itself, however, is ancient Yotvingian territory, which is a now-extinct Baltic tribe. The city of Lietuvos Brasta also marks the borderland between the old Grand Duchy of Lithuania and the Kingdom of Poland, with the settlement itself bearing the name of the former. Not to mention, this territory was included in the renewed Kingdom of Lithuania under the German Kaiser's initiative in 1918.\n\nHaving these lands under our control again, we must take all necessary steps to ensure it truly becomes Lithuanian again."
+ EXP_LIT_events.10.a:0 "Brześć Litewski literally means Lithuanian wade."
+ 
+
+
+ EXP_FIN_events.1.t:0 "Ruija and the open Arctic"
+ EXP_FIN_events.1.d:0 "Ruija, or Finnmark as the Norwegians call it, is the furthest Northern territory in Scandinavia, providing broad access to the Arctic Ocean. It is also evident that we have a specific historical claim in this region in terms of the Kven people, who are descendants of the Finns.\n\nSince we have Ruija currently under our control, we can integrate it into our realm to make sure we solidify our claim to this territory."
+ EXP_FIN_events.1.a:0 "Finland's shoreline expands."
+ 
+ EXP_FIN_events.2.t:0 "Burying the Russian history of Muurmanni"
+ EXP_FIN_events.2.d:0 "A big part of the ethnically Nordic population is, or atleast was, unfortunately divided by imperialism-based borders. Muurmanni also houses a significant-sized port by the Arctic shoreline, as the Russians have controlled it and it's surrounding land for centuries. This land, however, can just as easily be considered a part of Karelia.\n\nNow that Muurmanni has been wrestled from Russian control, we can begin the process of integrating it and it's people back into the Nordic sphere."
+ EXP_FIN_events.2.a:0 "Russian Murmansk is no more."
+ 
+ EXP_FIN_events.3.t:0 "Integration of Vienan Karjala"
+ EXP_FIN_events.3.d:0 "Karelians inhabit much more than just the territory around Lake Ladoga. Vienan Karjala houses people that are ethnically considered the closest relatives to Finns, which also hasn't made our former border situation completely satisfactory after Finland declared independence in 1917.\n\nNow that we have Vienan Karjala under our control, we can begin culturally joining it with the rest of Finland to revert the damage done by long Russian occupation."
+ EXP_FIN_events.3.a:0 "More access to the White Sea is very welcome."
+ 
+ EXP_FIN_events.4.t:0 "The Karelian claim to Aunus"
+ EXP_FIN_events.4.d:0 "Olonets is the Russian name for the oldest documented settlement in Karelia. Our language, aswell as that of the Karelians, refers to it as Aunus. The first mention of Aunus came from Novgorodian sources as early as 1137, which is long before Russia even existed.\n\nHaving it under our control, we have a responsibility to the Karelian ancestors of this land to integrate Aunus back into the Nordic sphere."
+ EXP_FIN_events.4.a:0 "Karelian soil is our soil, too."
+ 
+ EXP_FIN_events.5.t:0 "The Finnish part of Sweden"
+ EXP_FIN_events.5.d:0 "The Treaty of Fredrikshamn in 1809 saw the end of Swedish rule over Finland, at the expense of it being incorporated into the Russian Empire. The borders drawn then have left out a portion of the Finnish population in Tornedalen, or Tornionlaakso as it is called in our language.\n\nWe are now presented with a unique opportunity to challenge the territorial status quo that has existed for over a century and take this territory from the Swedish sphere of culture."
+ EXP_FIN_events.5.a:0 "Sweden owes us more than that."
+ 
+ EXP_FIN_events.6.t:0 "The Ingrian claim"
+ EXP_FIN_events.6.d:0 "The Gulf of Finland has always been surrounded by Nordic people. After the Great War, Estonians were the only Nordic people on that side of the Baltic Sea to secure independence, though there is still significant ethnic presence of cultural Scandinavians to the east of Estonia, which is Ingria - a land that has been passing hands for centuries, with the last claimant being Russia since the 18th century.\n\nIngria being under our control means we have a chance to culturally integrate land that lies on the other side of the gulf, a territory which has been nothing but a piece of imperialism-driven achievement for the Russians."
+ EXP_FIN_events.6.a:0 "Finland goes beyond the gulf."
+ 
+ EXP_FIN_events.7.t:0 "Removing the historical legacy of Lenin"
+ EXP_FIN_events.7.d:0 "The communists are no friends of ours and they never have been. The city in question bears the name of Vladimir Lenin, the person responsible for the bolshevik takeover in Russia and the threatening of peace in Europe. The Russians may take pride in Lenin, but we see no reason to. The city itself has been the capital of the Russian Empire, the same empire which has subjugated Finland in 1809 for over a century. Finnish troops on the streets of this city show nothing short of historical irony.\n\nDealing with the need to remove Lenin's name, we have a unique opportunity to establish a new title for this beautiful city, a name which may hold on for longer than that of Lenin's.\n\nWhat will we rename Leningrad to?"
+ EXP_FIN_events.7.a:0 "Pietari, as historically used by Finns and Karelians."
+ EXP_FIN_events.7.b:0 "Saint Petersburg, the former international name."
+ EXP_FIN_events.7.c:0 "Mannerheim, after our legendary commander."
+ 
+ 
+ EXP_HUN_events.1.t:0 "The Hungarian borderlands of Austria"
+ EXP_HUN_events.1.d:0 "The last time Burgenland came into our possession was in 1647 when Ferdinand II returned it to Hungary. Over the ages Burgenland has slightly swapped hands, but it has been considered a part of the Hungarian realm for the most part. This, despite containing a majority composition of ethnic Austrian Germans.\n\nAfter the disastrous Treaty of Trianon, we now have a chance to reintegrate Burgenland back into Hungary and restore what was once our western border."
+ EXP_HUN_events.1.a:0 "The Habsburgs would not mind."
+ 
+ EXP_HUN_events.2.t:0 "The Hungarians of Southern Slovakia"
+ EXP_HUN_events.2.d:0 "Part of the 3 million Hungarians who suddenly found themselves outside of Hungary's new territory were the locals of Southern Slovakia. Not only is this land an old, integral part of the late Kingdom of Hungary, it also contains our people who speak our language.\n\nNow that we have Southern Slovakia under our control, we can begin the process of fully reintegrating it back into Hungary."
+ EXP_HUN_events.2.a:0 "Welcome back to Hungary."
+ 
+ EXP_HUN_events.3.t:0 "Slovakia under the flag of Hungary"
+ EXP_HUN_events.3.d:0 "Western Slovakia, aswell as the rest of Slovakia has been a part of the Kingdom of Hungary for almost a thousand years, starting with the disintegration of the Great Moravian Empire in the 10th century. Our historical claim over Slovakia is needless to be explained.\n\nAs Hungarian troops now control the streets of Bratislava, we can begin bringing Slovakia back into the fold."
+ EXP_HUN_events.3.a:0 "Czechoslovakia was a failed experiment anyway."
+ 
+ EXP_HUN_events.4.t:0 "Eastern Slovakia is ours by right"
+ EXP_HUN_events.4.d:0 "Eastern Slovakia follows the same historical path as it's western counterpart, having been under the control of the Hungarian king for a millenia. We see no reason to let Slovakia break away from the fold when it has been an integral part of the Kingdom of Hungary for so long.\n\nNow that the Treaty of Trianon has no effect on the wind that blows Hungarian flags in Prešov, we can return Eastern Slovakia as an integral part of Hungary."
+ EXP_HUN_events.4.a:0 "The Slovakians have had their chance."
+ 
+ EXP_HUN_events.5.t:0 "The Carpathian range of Ruthenia"
+ EXP_HUN_events.5.d:0 "The mountain range of Carpathia has been the traditional natural border between Hungary and the Slavs on the other side. It provided us with an effective defensive strategy, and can easily do so again in anticipation of massive armies blowing through the Great European Plain.\n\nThe Ruthenians of Carpathia have now returned to the ownership of Hungary, and we can begin restoring this territory as truly part of ours."
+ EXP_HUN_events.5.a:0 "Tanks can't drive on mountains."
+ 
+ EXP_HUN_events.6.t:0 "The Hungarians of North Transylvania"
+ EXP_HUN_events.6.d:0 "Romania's occupation of Transylvania has caused us the most inconvenience. Let alone the region belonging to us for centuries, 1.5 million ethnic Hungarians have found themselves seperated a significant distance away from Hungary Proper.\n\nHaving Northern Transylvania under our control once again, we can begin reverting the cultural oppression that has been attempted by Romania since the Treaty of Trianon."
+ EXP_HUN_events.6.a:0 "Hungarians reunited with their homeland"
+ 
+ EXP_HUN_events.7.t:0 "The Transylvanian problem"
+ EXP_HUN_events.7.d:0 "The Union of Transylvania with Romania in 1918 made Romania a significantly large country on this part of Europe, all of which was won not by conquest but rather by the convenience that they capitalized off of after the Treaty of Trianon.\n\nBeing the former owner of Transylvania for centuries, we must reintegrate this land back to Hungary and reaffirm our historical territories."
+ EXP_HUN_events.7.a:0 "Romanian legacy is dwarfed by what we once had."
+ 
+ EXP_HUN_events.8.t:0 "Our claim to the land of Crisana"
+ EXP_HUN_events.8.d:0 "Even though we managed to keep a part of Crisana after the Treaty of Trianon in 1918, we still lost a significant portion of it to the newly unified Romanian country. Despite it containing a significant ethnic Romanian presence, we have owned this territory for much longer than their country even exists.\n\nThe fall of the once-mighty Austria-Hungary has not stopped us from reclaiming ownership of this land, and now we can properly reattach it to Hungary."
+ EXP_HUN_events.8.a:0 "Tearing apart the Treaty of Trianon."
+ 
+ EXP_HUN_events.9.t:0 "The interrupted overlordship over Banat"
+ EXP_HUN_events.9.d:0 "Banat has been controlled by the First Bulgarian Empire until the 11th century, afterwards transitioning to the Kingdom of Hungary and staying like it for ages, bar the temporary Ottoman occupation. In 1918, Banat declared itself a republic and later unified with Romania.\n\nNow that we have Banat under our control once again, we can reintegrate the land and it's people to the Hungarian realm."
+ EXP_HUN_events.9.a:0 "Reclaiming Habsburg territory one step at a time."
+ 
+ EXP_HUN_events.10.t:0 "The Serbs of West Banat"
+ EXP_HUN_events.10.d:0 "Yugoslavia emerged as a new country in 1918 following the disintegration of the Austro-Hungarian Empire. The Treaty of Trianon assigned West Banat, a former long-time territory of the Kingdom of Hungary, to Yugoslavia.\n\nHaving West Banat under our control once again, we can reintegrate it back into Hungary."
+ EXP_HUN_events.10.a:0 "Retaking what was ours for centuries."
+ 
+ EXP_HUN_events.11.t:0 "The history of Vojvodina"
+ EXP_HUN_events.11.d:0 "Vojvodina swapped owners in 1860 when the Austrian Crown leased the land to the Hungarian Crown by Habsburg initiative. The second half of the 19th century saw Vojvodina turned into an agricultural paradise within the Kingdom of Hungary, providing great financial gains via exports.\n\nNow that we have the Slavs of Vojvodina under our control once again, we can begin the process of reintegration."
+ EXP_HUN_events.11.a:0 "Back to the shores of the Danube."
+ 
+ EXP_GER_events.1.t:0 "Nordschleswig returns"
+ EXP_GER_events.1.d:0 "Nordschleswig was acquired by us in the Second War of Schleswig in 1864. It has been controlled by the Duchy of Prussia and later the German Empire, the latter of whom lost the land to Denmark due to the Treaty of Versailles signed in 1919.\n\nNow that we have this land under our control, we can reintegrate it back into Germany."
+ EXP_GER_events.1.a:0 "Welcome back to Germany."
+ 
+ EXP_GER_events.2.t:0 "Posen returns to the fold"
+ EXP_GER_events.2.d:0 "Posen was first acquired by Prussia during the Second Partition of the Polish-Lithuanian Commonwealth in 1793. As Russia, Austria and Prussia were partitioning the Commonwealth, Prussia managed to carve out a significant portion of northern Poland. These territories remained ours until the Treaty of Versailles in 1919.\n\nHaving taken control over Posen once again, we have an opportunity to reintegrate the territory with Germany."
+ EXP_GER_events.2.a:0 "Ghosts of the Polish-Lithuanian Commonwealth."
+ 
+ EXP_GER_events.3.t:0 "Gdynia and the corridor issue"
+ EXP_GER_events.3.d:0 "The land of Gdynia has been important to Germany for it houses significant cities and a port along the Baltic Sea. After Germany lost this territory in 1919, Gdynia stood as an unfortunate corridor between Eastern Prussia and the rest of Germany.\n\nNow that we have Gdynia under our control, it is only appropriate to begin the reintegration process."
+ EXP_GER_events.3.a:0 "One more territorial disgrace removed."
+ 
+ EXP_GER_events.4.t:0 "The Silesian lands of Kattowitz"
+ EXP_GER_events.4.d:0 "The Polish population of Kattowitz was quickly replaced by that of the German one in the middle of the 18th century. The city itself was turned into an industrial settlement and remains an important part of the Silesian lands. We have lost this territory after the Treaty of Versailles in 1919.\n\nThe return of Kattowitz into our fold is nothing short of promising. We must take necessary steps to reintegrate this land back into Germany."
+ EXP_GER_events.4.a:0 "Retaking the other part of Silesia."
+ 
+ EXP_GER_events.5.t:0 "Danzig and the Treaty of Versailles"
+ EXP_GER_events.5.d:0 "The coastal city of Danzig has been arguably the most significant territorial loss after the Kaiser's government signed the Treaty of Versailles in 1919 to formalize the end of the Great War. The Danzig corridor also sawed our Prussian territories in half, creating severe logistical issues, let alone striking deep at German national pride by giving the city to Poland.\n\nDanzig is currently under our control and we cannot delay the reintegration of this glorious city's people back into Germany."
+ EXP_GER_events.5.a:0 "Hopefully this time it will stay German."
+ 
+ EXP_GER_events.6.t:0 "Thorn returns to the fold"
+ EXP_GER_events.6.d:0 "Thorn is an important city of what were once the East Prussian territories of the late German Empire. This settlement was Germanized shortly after the Poles have made their last unsuccessful attempts in meddling with German rule during the 19th century. It is also a constituent part of what became the Danzig corridor after the Treaty of Versailles in 1919.\n\nHaving reattached Thorn and it's surrounding land to our country, we must expunge any Polish cultural influence that remains here."
+ EXP_GER_events.6.a:0 "The Polish were never strong enough to have it."
+ 
+ EXP_GER_events.7.t:0 "Eupen-Malmedy back in German hands"
+ EXP_GER_events.7.d:0 "The end of the Great War saw our country lose significant amounts of territory both in the East and the West. However small Eupen-Malmedy might seem in the grand scheme of things, it is still former German territory and houses an ethnic German presence. Belgium's annexation of this territory during the Treaty of Versailles has no cultural justification whatsoever.\n\nNow that Eupen-Malmedy is once again under our control, we shall reintegrate it back into the German nation where it truly belongs."
+ EXP_GER_events.7.a:0 "What does this land have to do with Belgium?"

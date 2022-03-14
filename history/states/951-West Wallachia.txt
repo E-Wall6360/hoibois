@@ -1,0 +1,26 @@
+
+state={
+	id=951
+	name="STATE_951" # Muntenia
+	manpower = 1325800
+	resources={
+		oil=5 # was: 70
+	}
+
+	state_category = town
+
+	history={
+		owner = ROM
+		victory_points = { 3663 5 }
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ROM
+	}
+
+	provinces={
+		660 818 3636 3639 3663 6695 11619 
+	}
+
+	local_supplies=0.0 
+}

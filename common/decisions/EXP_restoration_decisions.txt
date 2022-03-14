@@ -1,0 +1,842 @@
+EXP_restoration_effort_category = {
+
+	.784_restoration = {
+	
+		allowed = {
+			original_tag = POL
+		}
+
+		available = {
+			owns_state = 784
+			has_full_control_of_state = 784
+			784 = { is_core_of = LIT }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			784 = { is_core_of = LIT }
+			has_full_control_of_state = 784
+		}
+		complete_effect = {
+			784 = { remove_core_of = LIT }
+			set_province_name = { id = 3320 name = "Wilno" }
+			hidden_effect = { 784 = { set_state_name = "Wilno" add_claim_by = LIT } }
+		}		
+	
+	}
+	
+	.835_restoration = {
+	
+		allowed = {
+			original_tag = POL
+		}
+
+		available = {
+			owns_state = 835
+			has_full_control_of_state = 835
+			835 = { is_core_of = LIT }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			835 = { is_core_of = LIT }
+			has_full_control_of_state = 835
+		}
+		complete_effect = {
+			835 = { remove_core_of = LIT }
+			set_province_name = { id = 13236 name = "Braslaw" }
+			hidden_effect = { 835 = { set_state_name = "Braslaw" add_claim_by = LIT } }
+		}		
+	
+	}
+	
+	.836_restoration = {
+	
+		allowed = {
+			original_tag = POL
+		}
+
+		available = {
+			owns_state = 836
+			has_full_control_of_state = 836
+			836 = { is_core_of = LIT }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			836 = { is_core_of = LIT }
+			has_full_control_of_state = 836
+		}
+		complete_effect = {
+			836 = { remove_core_of = LIT }
+			set_province_name = { id = 3393 name = "Grodno" }
+			set_province_name = { id = 6413 name = "Lida" }
+			hidden_effect = { 836 = { set_state_name = "Grodno" add_claim_by = LIT } }
+		}		
+	
+	}
+	
+	.837_restoration = {
+	
+		allowed = {
+			original_tag = POL
+		}
+
+		available = {
+			owns_state = 837
+			has_full_control_of_state = 837
+			837 = { is_core_of = LIT }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			837 = { is_core_of = LIT }
+			has_full_control_of_state = 837
+		}
+		complete_effect = {
+			837 = { remove_core_of = LIT }
+			set_province_name = { id = 3254 name = "Suwałki" }
+			hidden_effect = { 837 = { set_state_name = "Suwalki" add_claim_by = LIT } }
+		}		
+	
+	}
+	
+	.952_restoration = {
+	
+		allowed = {
+			original_tag = POL
+		}
+
+		available = {
+			owns_state = 952
+			has_full_control_of_state = 952
+			952 = { is_core_of = LIT }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			952 = { is_core_of = LIT }
+			has_full_control_of_state = 952
+		}
+		complete_effect = {
+			952 = { remove_core_of = LIT }
+			set_province_name = { id = 318 name = "Wołkowysk" }
+			hidden_effect = { 952 = { set_state_name = "Wołkowysk" } }
+		}		
+	
+	}
+	
+	.97_restoration = {
+	
+		allowed = {
+			original_tag = POL
+		}
+
+		available = {
+			owns_state = 97
+			has_full_control_of_state = 97
+			97 = { is_core_of = LIT }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			97 = { is_core_of = LIT }
+			has_full_control_of_state = 97
+		}
+		complete_effect = {
+			97 = { remove_core_of = LIT }
+			set_province_name = { id = 11301 name = "Białystok" }
+			set_province_name = { id = 13341 name = "Brześć Litewski" }
+			hidden_effect = { 97 = { set_state_name = "Białystok" } }
+		}		
+	
+	}
+	
+	.838_restoration = {
+	
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			owns_state = 838
+			has_full_control_of_state = 838
+			838 = { is_core_of = LIT }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			838 = { is_core_of = LIT }
+			has_full_control_of_state = 838
+		}
+		complete_effect = {
+			838 = { remove_core_of = LIT }
+			set_province_name = { id = 281 name = "Tilsit" }
+			hidden_effect = { 838 = { set_state_name = "Tilsit" } }
+		}		
+	
+	}
+	
+	.843_restoration = {
+	
+		allowed = {
+			original_tag = NOR
+		}
+
+		available = {
+			owns_state = 843
+			has_full_control_of_state = 843
+			843 = { is_core_of = FIN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			843 = { is_core_of = FIN }
+			has_full_control_of_state = 843
+		}
+		complete_effect = {
+			843 = { remove_core_of = FIN }
+			set_province_name = { id = 9116 name = "Kirkenes" }
+		}		
+	
+	}
+	
+	.213_restoration = {
+	
+		allowed = {
+			original_tag = SOV
+		}
+
+		available = {
+			owns_state = 213
+			has_full_control_of_state = 213
+			213 = { is_core_of = FIN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			213 = { is_core_of = FIN }
+			has_full_control_of_state = 213
+		}
+		complete_effect = {
+			213 = { remove_core_of = FIN }
+			set_province_name = { id = 3134 name = "Murmansk" }
+			set_province_name = { id = 6181 name = "Kandalaksha" }
+			hidden_effect = { 213 = { set_state_name = "Musmansk" } }
+		}		
+	
+	}
+
+	.215_restoration = {
+	
+		allowed = {
+			original_tag = SOV
+		}
+
+		available = {
+			owns_state = 215
+			has_full_control_of_state = 215
+			215 = { is_core_of = FIN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			215 = { is_core_of = FIN }
+			has_full_control_of_state = 215
+		}
+		complete_effect = {
+			215 = { remove_core_of = FIN }
+			hidden_effect = { 215 = { set_state_name = "Onega" } }
+		}		
+	
+	}
+	
+	
+	.216_restoration = {
+	
+		allowed = {
+			original_tag = SOV
+		}
+
+		available = {
+			owns_state = 216
+			has_full_control_of_state = 216
+			216 = { is_core_of = FIN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			216 = { is_core_of = FIN }
+			has_full_control_of_state = 216
+		}
+		complete_effect = {
+			216 = { remove_core_of = FIN }
+			set_province_name = { id = 11159 name = "Petrozavodsk" }
+			hidden_effect = { 216 = { set_state_name = "Olonets" } }
+		}		
+	
+	}
+
+	.840_restoration = {
+	
+		allowed = {
+			original_tag = SOV
+		}
+
+		available = {
+			owns_state = 840
+			has_full_control_of_state = 840
+			840 = { is_core_of = FIN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			840 = { is_core_of = FIN }
+			has_full_control_of_state = 840
+		}
+		complete_effect = {
+			840 = { remove_core_of = FIN }
+			set_province_name = { id = 3120 name = "Kingisepp" }
+		}		
+	
+	}
+	
+	.195_restoration = {
+	
+		allowed = {
+			original_tag = SOV
+		}
+
+		available = {
+			owns_state = 195
+			has_full_control_of_state = 195
+			195 = { is_core_of = FIN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			195 = { is_core_of = FIN }
+			has_full_control_of_state = 195
+		}
+		complete_effect = {
+			195 = { remove_core_of = FIN }
+			set_province_name = { id = 3151 name = "Leningrad" }
+		}		
+	
+	}
+	
+	.841_restoration = {
+	
+		allowed = {
+			original_tag = SWE
+		}
+
+		available = {
+			owns_state = 841
+			has_full_control_of_state = 841
+			841 = { is_core_of = FIN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			841 = { is_core_of = FIN }
+			has_full_control_of_state = 841
+		}
+		complete_effect = {
+			841 = { remove_core_of = FIN }
+			set_province_name = { id = 101 name = "Kiruna" }
+		}		
+	
+	}
+	
+	.845_restoration = {
+	
+		allowed = {
+			original_tag = DEN
+		}
+
+		available = {
+			owns_state = 845
+			has_full_control_of_state = 845
+			845 = { is_core_of = GER }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			845 = { is_core_of = GER }
+			has_full_control_of_state = 845
+		}
+		complete_effect = {
+			845 = { remove_core_of = GER }
+			set_province_name = { id = 11251 name = "Åbenrå" }
+		}		
+	
+	}
+	
+	.762_restoration = {
+	
+		allowed = {
+			original_tag = POL
+		}
+
+		available = {
+			owns_state = 762
+			has_full_control_of_state = 762
+			762 = { is_core_of = GER }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			762 = { is_core_of = GER }
+			has_full_control_of_state = 762
+		}
+		complete_effect = {
+			762 = { remove_core_of = GER }
+			set_province_name = { id = 6464 name = "Katowice" }
+			hidden_effect = { 762 = { set_state_name = "Katowice" } }
+		}		
+	
+	}
+	
+	.86_restoration = {
+	
+		allowed = {
+			original_tag = POL
+		}
+
+		available = {
+			owns_state = 86
+			has_full_control_of_state = 86
+			86 = { is_core_of = GER }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			86 = { is_core_of = GER }
+			has_full_control_of_state = 86
+		}
+		complete_effect = {
+			86 = { remove_core_of = GER }
+			set_province_name = { id = 6558 name = "Poznań" }
+			hidden_effect = { 86 = { set_state_name = "Poznań" } }
+		}		
+	
+	}
+	
+	.807_restoration = {
+	
+		allowed = {
+			original_tag = POL
+		}
+
+		available = {
+			owns_state = 807
+			has_full_control_of_state = 807
+			807 = { is_core_of = GER }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			807 = { is_core_of = GER }
+			has_full_control_of_state = 807
+		}
+		complete_effect = {
+			807 = { remove_core_of = GER }
+			set_province_name = { id = 279 name = "Bygdoszcz" }
+			set_province_name = { id = 3295 name = "Toruń" }
+		}		
+	
+	}
+	
+	.85_restoration = {
+	
+		allowed = {
+			original_tag = POL
+		}
+
+		available = {
+			owns_state = 85
+			has_full_control_of_state = 85
+			85 = { is_core_of = GER }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			85 = { is_core_of = GER }
+			has_full_control_of_state = 85
+		}
+		complete_effect = {
+			85 = { remove_core_of = GER }
+			set_province_name = { id = 362 name = "Gdańsk" }
+		}		
+	
+	}
+	
+	.855_restoration = {
+	
+		allowed = {
+			OR = {
+				original_tag = AUS
+				original_tag = GER
+			}
+		}
+
+		available = {
+			owns_state = 855
+			has_full_control_of_state = 855
+			855 = { is_core_of = HUN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			855 = { is_core_of = HUN }
+			has_full_control_of_state = 855
+		}
+		complete_effect = {
+			855 = { remove_core_of = HUN }
+			set_province_name = { id = 3700 name = "Eisenstadt" }
+		}		
+	
+	}
+	
+	.664_restoration = {
+	
+		allowed = {
+			OR = {
+				original_tag = CZE
+				original_tag = SLO
+			}
+		}
+
+		available = {
+			owns_state = 664
+			has_full_control_of_state = 664
+			664 = { is_core_of = HUN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			664 = { is_core_of = HUN }
+			has_full_control_of_state = 664
+		}
+		complete_effect = {
+			664 = { remove_core_of = HUN }
+			set_province_name = { id = 6573 name = "Kosice" }
+		}		
+	
+	}
+	
+	.70_restoration = {
+	
+		allowed = {
+			OR = {
+				original_tag = CZE
+				original_tag = SLO
+			}
+		}
+
+		available = {
+			owns_state = 70
+			has_full_control_of_state = 70
+			70 = { is_core_of = HUN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			70 = { is_core_of = HUN }
+			has_full_control_of_state = 70
+		}
+		complete_effect = {
+			70 = { remove_core_of = HUN }
+			set_province_name = { id = 9692 name = "Bratislava" }
+			set_province_name = { id = 11539 name = "Žilina" }
+		}		
+	
+	}
+	
+	.71_restoration = {
+	
+		allowed = {
+			OR = {
+				original_tag = CZE
+				original_tag = SLO
+			}
+		}
+
+		available = {
+			owns_state = 71
+			has_full_control_of_state = 71
+			71 = { is_core_of = HUN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			71 = { is_core_of = HUN }
+			has_full_control_of_state = 71
+		}
+		complete_effect = {
+			71 = { remove_core_of = HUN }
+			set_province_name = { id = 3581 name = "Prešov" }
+		}		
+	
+	}
+	
+	.73_restoration = {
+	
+		allowed = {
+			OR = {
+				original_tag = CZE
+				original_tag = SLO
+			}
+		}
+		
+
+		available = {
+			owns_state = 73
+			has_full_control_of_state = 73
+			73 = { is_core_of = HUN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			73 = { is_core_of = HUN }
+			has_full_control_of_state = 73
+		}
+		complete_effect = {
+			73 = { remove_core_of = HUN }
+			set_province_name = { id = 3548 name = "Mukacevo" }
+		}		
+	
+	}
+	
+	.76_restoration = {
+	
+		allowed = {
+			OR = {
+				original_tag = ROM
+				original_tag = TRA
+			}
+		}
+		
+
+		available = {
+			owns_state = 76
+			has_full_control_of_state = 76
+			76 = { is_core_of = HUN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			76 = { is_core_of = HUN }
+			has_full_control_of_state = 76
+		}
+		complete_effect = {
+			76 = { remove_core_of = HUN }
+			set_province_name = { id = 6711 name = "Cluj" }
+		}		
+	
+	}
+	
+	.84_restoration = {
+	
+		allowed = {
+			OR = {
+				original_tag = ROM
+				original_tag = TRA
+			}
+		}
+		
+
+		available = {
+			owns_state = 84
+			has_full_control_of_state = 84
+			84 = { is_core_of = HUN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			84 = { is_core_of = HUN }
+			has_full_control_of_state = 84
+		}
+		complete_effect = {
+			84 = { remove_core_of = HUN }
+			set_province_name = { id = 690 name = "Brasov" }
+		}		
+	
+	}
+	
+	.83_restoration = {
+	
+		allowed = {
+			OR = {
+				original_tag = ROM
+				original_tag = TRA
+			}
+		}
+		
+
+		available = {
+			owns_state = 83
+			has_full_control_of_state = 83
+			83 = { is_core_of = HUN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			83 = { is_core_of = HUN }
+			has_full_control_of_state = 83
+		}
+		complete_effect = {
+			83 = { remove_core_of = HUN }
+			set_province_name = { id = 6682 name = "Arad" }
+		}		
+	
+	}
+	
+	.82_restoration = {
+	
+		allowed = {
+			OR = {
+				original_tag = ROM
+				original_tag = TRA
+			}
+		}
+		
+
+		available = {
+			owns_state = 82
+			has_full_control_of_state = 82
+			82 = { is_core_of = HUN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			82 = { is_core_of = HUN }
+			has_full_control_of_state = 82
+		}
+		complete_effect = {
+			82 = { remove_core_of = HUN }
+			set_province_name = { id = 9606 name = "Timisoara" }
+		}		
+	
+	}
+	
+	.764_restoration = {
+	
+		allowed = {
+			OR = {
+				original_tag = YUG
+				original_tag = SER
+				original_tag = TRA
+			}
+		}
+		
+
+		available = {
+			owns_state = 764
+			has_full_control_of_state = 764
+			764 = { is_core_of = HUN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			764 = { is_core_of = HUN }
+			has_full_control_of_state = 764
+		}
+		complete_effect = {
+			764 = { remove_core_of = HUN }
+			set_province_name = { id = 3614 name = "Pancevo" }
+		}		
+	
+	}
+	
+	.45_restoration = {
+	
+		allowed = {
+			OR = {
+				original_tag = YUG
+				original_tag = SER
+			}
+		}
+		
+
+		available = {
+			owns_state = 45
+			has_full_control_of_state = 45
+			45 = { is_core_of = HUN }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			45 = { is_core_of = HUN }
+			has_full_control_of_state = 45
+		}
+		complete_effect = {
+			45 = { remove_core_of = HUN }
+			set_province_name = { id = 619 name = "Novi Sad" }
+		}		
+	
+	}
+
+
+}

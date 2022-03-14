@@ -1,0 +1,33 @@
+
+state={
+	id=910
+	name="STATE_910"
+	manpower = 489520
+	buildings_max_level_factor = 1
+
+	state_category = town
+
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = GER
+
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		375 3367 11219 
+	}
+
+	local_supplies=0.0 
+}

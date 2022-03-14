@@ -1,0 +1,24 @@
+state= {
+	id=875
+	name="STATE_875"
+	manpower = 215250
+	
+	state_category = rural
+	
+	resources={
+		tungsten=46 # was: 106
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = USA
+	}
+	provinces={
+		1756 4668 7764 10582 13317 13318
+	}
+
+	local_supplies=0.0 
+}

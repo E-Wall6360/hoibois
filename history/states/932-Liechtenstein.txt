@@ -1,0 +1,31 @@
+
+state={
+	id=932
+	name="STATE_932"
+	manpower = 10520
+	
+	
+	state_category = rural
+	
+	resources={
+		aluminium=1
+	}
+
+	history={
+		owner = LCH
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			13334 1
+		}
+		add_core_of = LCH
+	}
+
+	provinces={
+		13334
+	}
+
+	local_supplies=0.0 
+}

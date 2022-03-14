@@ -1,0 +1,38 @@
+
+state={
+	id=66
+	name="STATE_66"
+	manpower = 514030
+	resources={
+		steel=11 # was: 110
+		aluminium=3 # was: 38
+	}
+	
+	state_category = town
+
+	history={
+		owner = SIL
+		victory_points = {
+			552 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = GER
+		add_core_of = SIL
+
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 1
+				industrial_complex = 1
+			}
+		}
+	}
+
+	provinces={
+		552 3438 3572 6534 6595 11517 
+	}
+
+	local_supplies=0.0 
+}

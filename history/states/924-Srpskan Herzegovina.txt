@@ -1,0 +1,26 @@
+
+state={
+	id=924
+	name="STATE_924"
+	manpower =358250
+	
+	
+	state_category = rural
+	
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = YUG
+		add_core_of = BOS
+		add_core_of = HRZ
+		add_core_of = SRP
+	}
+
+	provinces={
+		953 11845
+	}
+
+	local_supplies=0.0 
+}

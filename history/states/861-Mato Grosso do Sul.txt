@@ -1,0 +1,25 @@
+
+state={
+	id=861
+	name="STATE_861" # Mato Grosso do Sul
+	
+	state_category = pastoral
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BRA
+
+	}
+
+	provinces={
+		2142 13298
+	}
+	manpower=25670
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

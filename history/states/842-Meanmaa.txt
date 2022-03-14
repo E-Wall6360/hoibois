@@ -1,0 +1,29 @@
+
+state={
+	id=842
+	name="STATE_842"
+	manpower = 26835
+	
+	state_category = rural
+	
+	resources={
+		steel=2 # was: 8
+	}
+	history={
+		owner = FIN
+		victory_points={
+			11125 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FIN
+		add_core_of = SMI
+	}
+
+	provinces={
+		124 3055 11125 3193 11115 11130
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+capital = 276
+
+set_research_slots = 2
+
+add_ideas = {
+	limited_conscription
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1935.12.9"
+	election_frequency = 120
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 55
+	neutrality = 35
+	democratic = 10
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1936.6.10"
+		election_frequency = 120
+		elections_allowed = no
+	}
+}
+
+create_country_leader = {
+	name = "John Ross Taylor"
+	desc = ""
+	picture = "gfx/leaders/CRH/Portrait_CRH_john_ross_taylor.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}

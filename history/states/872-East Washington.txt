@@ -1,0 +1,25 @@
+
+state={
+	id=872
+	name="STATE_872"
+	manpower = 392580
+	
+	state_category = rural
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2 
+		}
+		add_core_of = USA
+		victory_points = {
+			1690 1 
+		}
+	}
+
+	provinces={
+		1320 1690 4747 10327 10198 10687 10690 10693 12673 
+	}
+
+	local_supplies=0.0 
+}

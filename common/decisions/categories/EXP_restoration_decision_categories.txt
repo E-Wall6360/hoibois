@@ -1,0 +1,18 @@
+################
+##### All ######
+################
+
+EXP_restoration_effort_category = {
+	
+	icon = GFX_decision_category_generic_political_actions
+
+	picture = GFX_decision_cat_restoration_effort
+
+	allowed = {
+
+	}
+
+	visible = {
+
+	}
+}

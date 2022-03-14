@@ -1,0 +1,35 @@
+
+state={
+	id=907
+	name="STATE_907"
+	manpower = 328500
+	resources={
+		aluminium=5 # was: 30
+	}
+	
+	state_category = town
+
+	history={
+		owner = GER
+		victory_points = {
+			3688 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = GER
+		add_core_of = BAY
+
+		1939.1.1 = {
+			buildings = {
+
+			}
+		}
+	}
+
+	provinces={
+		707 3688 
+	}
+
+	local_supplies=0.0 
+}

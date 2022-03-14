@@ -1,0 +1,174 @@
+GER_germanization_effort_category = {
+
+	GER_integrate_sonderjylland = {
+
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			owns_state = 845
+			has_full_control_of_state = 845
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 845
+			NOT = { 845 = { is_core_of = GER } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_GER_events.1 } }
+		}
+	}
+	GER_integrate_poznan = {
+
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			owns_state = 86
+			has_full_control_of_state = 86
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 86
+			NOT = { 86 = { is_core_of = GER } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_GER_events.2 } }
+		}
+	}
+	
+	GER_integrate_gdynia = {
+
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			owns_state = 807
+			has_full_control_of_state = 807
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 807
+			NOT = { 807 = { is_core_of = GER } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_GER_events.3 } }
+		}
+	}
+	
+	GER_integrate_katowice = {
+
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			owns_state = 762
+			has_full_control_of_state = 762
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 762
+			NOT = { 762 = { is_core_of = GER } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_GER_events.4 } }
+		}
+	}
+	
+	GER_integrate_danzig = {
+
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			owns_state = 85
+			has_full_control_of_state = 85
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 85
+			NOT = { 85 = { is_core_of = GER } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_GER_events.5 } }
+		}
+	}
+	GER_integrate_torun = {
+
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			owns_state = 890
+			has_full_control_of_state = 890
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 890
+			NOT = { 890 = { is_core_of = GER } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_GER_events.6 } }
+		}
+	}
+	GER_integrate_eupen_malmedy = {
+
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			owns_state = 915
+			has_full_control_of_state = 915
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 915
+			NOT = { 915 = { is_core_of = GER } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_GER_events.7 } }
+		}
+	}
+}

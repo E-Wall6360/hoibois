@@ -1,0 +1,95 @@
+# Peru-Bolivian Confederation
+
+add_namespace = KSR_news_events
+
+news_event = {
+	id = KSR_news_events.1
+	title = KSR_news_events.1.t
+	desc = KSR_news_events.1.d
+	picture = GFX_news_event_generic_parliament
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = KSR_news_events.1.a
+		trigger = {
+			OR = { 
+				original_tag = PRU
+				original_tag = BOL 
+			}
+		}
+	}
+	option = {
+		name = KSR_news_events.1.b
+		trigger = {
+			NOT = {
+				OR = {
+					original_tag = PRU
+					original_tag = BOL
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = KSR_news_events.2
+	title = KSR_news_events.2.t
+	desc = KSR_news_events.2.d
+	picture = GFX_ksr_news_event_american_partition
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = KSR_news_events.2.a
+		trigger = {
+			OR = { 
+				original_tag = GER
+				original_tag = JAP
+			}
+		}
+	}
+	option = {
+		name = KSR_news_events.2.b
+		trigger = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					original_tag = JAP
+				}
+			}
+		}
+	}
+}
+
+
+# Papal States
+
+add_namespace = KSR_news_events
+
+news_event = {
+	id = KSR_news_events.3
+	title = KSR_news_events.3.t
+	desc = KSR_news_events.3.d
+	picture = GFX_news_event_generic_parliament
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = KSR_news_events.3.a
+		trigger = {
+			original_tag = VAT
+		}
+	}
+	option = {
+		name = KSR_news_events.3.b
+		trigger = {
+			NOT = {
+				original_tag = VAT
+			}
+		}
+	}
+}

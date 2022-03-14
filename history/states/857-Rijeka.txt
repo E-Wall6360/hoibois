@@ -1,0 +1,29 @@
+
+state={
+	id=857
+	name="STATE_857" # Rijeka
+	manpower = 230300
+
+	state_category = town
+
+
+	history={
+		owner = YUG
+		victory_points = {
+			11564 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = YUG
+		#add_claim_by = ITA #added by focus
+		add_core_of = CRO
+	}
+
+	provinces={
+		11564 3601 591 6611
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=949
+	name="STATE_949"
+	manpower = 390550
+	state_category = town
+	
+	resources={
+		steel=16 # was: 40
+	}
+
+	history={
+		owner = SWE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = SWE
+	}
+
+	provinces={
+		3106 3141 6084 6164 6188 9054 9185 9209 9218 11044 13097
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,226 @@
+###########################
+# Germany Expansionism events
+###########################
+
+add_namespace = EXP_GER_events
+
+# Integrate Sonderjylland
+country_event = {
+	id = EXP_GER_events.1
+	title = EXP_GER_events.1.t
+	desc = EXP_GER_events.1.d
+	picture = GFX_exp_ger_event_integrate_sonderjylland
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_GER_events.1.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 11251 name = "Apenrade" }
+			845 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 11251 name = "Apenrade" }
+			845 = { add_core_of = ROOT }
+			add_stability = 0.03
+			845 = { set_state_name = "Nordschleswig" }
+		}		
+		
+	}
+}
+
+# Integrate Poznan
+country_event = {
+	id = EXP_GER_events.2
+	title = EXP_GER_events.2.t
+	desc = EXP_GER_events.2.d
+	picture = GFX_exp_ger_event_integrate_poznan
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_GER_events.2.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 6558 name = "Posen" }
+			86 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 6558 name = "Posen" }
+			86 = { add_core_of = ROOT }
+			add_stability = 0.03
+			86 = { set_state_name = "Posen" }
+		}		
+		
+	}
+}
+
+# Integrate Gdynia
+country_event = {
+	id = EXP_GER_events.3
+	title = EXP_GER_events.3.t
+	desc = EXP_GER_events.3.d
+	picture = GFX_exp_ger_event_integrate_gdynia
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_GER_events.3.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 279 name = "Bromberg" }
+			set_province_name = { id = 9263 name = "Gdingen" }
+			807 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 279 name = "Bromberg" }
+			set_province_name = { id = 9263 name = "Gdingen" }
+			807 = { add_core_of = ROOT }
+			add_stability = 0.03
+			807 = { set_state_name = "Gdynia" }
+		}		
+		
+	}
+}
+
+# Integrate Katowice
+country_event = {
+	id = EXP_GER_events.4
+	title = EXP_GER_events.4.t
+	desc = EXP_GER_events.4.d
+	picture = GFX_exp_ger_event_integrate_katowice
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_GER_events.4.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 6464 name = "Kattowitz" }
+			762 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 6464 name = "Kattowitz" }
+			762 = { add_core_of = ROOT }
+			add_stability = 0.03
+			762 = { set_state_name = "Kattowitz" }
+		}		
+		
+	}
+}
+
+
+# Integrate Danzig
+country_event = {
+	id = EXP_GER_events.5
+	title = EXP_GER_events.5.t
+	desc = EXP_GER_events.5.d
+	picture = GFX_exp_ger_event_integrate_danzig
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_GER_events.5.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 362 name = "Danzig" }
+			85 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 362 name = "Danzig" }
+			85 = { add_core_of = ROOT }
+			add_stability = 0.03
+			85 = { set_state_name = "Danzig" }
+		}		
+		
+	}
+}
+
+
+
+# Integrate Torun
+country_event = {
+	id = EXP_GER_events.6
+	title = EXP_GER_events.6.t
+	desc = EXP_GER_events.6.d
+	picture = GFX_exp_ger_event_integrate_torun
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_GER_events.6.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 3295 name = "Thorn" }
+			890 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 3295 name = "Thorn" }
+			890 = { add_core_of = ROOT }
+			add_stability = 0.03
+			890 = { set_state_name = "Thorn" }
+		}		
+		
+	}
+}
+
+
+
+# Integrate Eupen-Malmedy
+country_event = {
+	id = EXP_GER_events.7
+	title = EXP_GER_events.7.t
+	desc = EXP_GER_events.7.d
+	picture = GFX_exp_ger_event_integrate_eupen_malmedy
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_GER_events.7.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			915 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			915 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}		
+		
+	}
+}

@@ -1,0 +1,26 @@
+state={
+	id=835
+	name="STATE_835"
+	manpower = 110000
+	
+	state_category = rural
+	
+	history={
+		victory_points = {
+			13236 1
+		}
+		owner = BLR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = POL
+		add_claim_by = LIT
+		add_core_of = BLR
+	}
+
+	provinces={
+		6340 11391 13236 13339
+	}
+
+	local_supplies=0.0 
+}

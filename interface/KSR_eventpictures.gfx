@@ -1,0 +1,172 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_exp_lit_event_vilnius_returns"
+		texturefile = "gfx/event_pictures/exp_lit_event_vilnius_returns.dds"
+	}	
+	spriteType = {
+		name = "GFX_exp_lit_event_move_capital_to_vilnius"
+		texturefile = "gfx/event_pictures/exp_lit_event_move_capital_to_vilnius.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_lit_event_integrate_gardinas"
+		texturefile = "gfx/event_pictures/exp_lit_event_integrate_gardinas.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_lit_event_integrate_breslauja"
+		texturefile = "gfx/event_pictures/exp_lit_event_integrate_breslauja.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_lit_event_integrate_suvalkai"
+		texturefile = "gfx/event_pictures/exp_lit_event_integrate_suvalkai.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_lit_event_integrate_tilze"
+		texturefile = "gfx/event_pictures/exp_lit_event_integrate_tilze.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_lit_event_move_tempoary_capital_to_kaunas"
+		texturefile = "gfx/event_pictures/exp_lit_event_move_temporary_capital_to_kaunas.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_lit_event_integrate_valkaviskas"
+		texturefile = "gfx/event_pictures/exp_lit_event_integrate_valkaviskas.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_lit_event_integrate_balstoge"
+		texturefile = "gfx/event_pictures/exp_lit_event_integrate_balstoge.dds"
+	}
+
+	
+	
+	spriteType = {
+		name = "GFX_exp_fin_event_integrate_finnmark"
+		texturefile = "gfx/event_pictures/exp_fin_event_integrate_finnmark.dds"
+	}	
+	spriteType = {
+		name = "GFX_exp_fin_event_integrate_olonets_karjala"
+		texturefile = "gfx/event_pictures/exp_fin_event_integrate_olonets_karjala.dds"
+	}		
+	spriteType = {
+		name = "GFX_exp_fin_event_integrate_vienan_karjala"
+		texturefile = "gfx/event_pictures/exp_fin_event_integrate_vienan_karjala.dds"
+	}		
+	spriteType = {
+		name = "GFX_exp_fin_event_integrate_muurmanni"
+		texturefile = "gfx/event_pictures/exp_fin_event_integrate_muurmanni.dds"
+	}	
+	spriteType = {
+		name = "GFX_exp_fin_event_rename_leningrad"
+		texturefile = "gfx/event_pictures/exp_fin_event_rename_leningrad.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_fin_event_integrate_ingria"
+		texturefile = "gfx/event_pictures/exp_fin_event_integrate_ingria.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_fin_event_integrate_tornedalen"
+		texturefile = "gfx/event_pictures/exp_fin_event_integrate_tornedalen.dds"
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_exp_hun_event_integrate_burgenland"
+		texturefile = "gfx/event_pictures/exp_hun_event_integrate_burgenland.dds"
+	}	
+	spriteType = {
+		name = "GFX_exp_hun_event_integrate_southern_slovakia"
+		texturefile = "gfx/event_pictures/exp_hun_event_integrate_southern_slovakia.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_hun_event_integrate_western_slovakia"
+		texturefile = "gfx/event_pictures/exp_hun_event_integrate_western_slovakia.dds"
+	}		
+	spriteType = {
+		name = "GFX_exp_hun_event_integrate_eastern_slovakia"
+		texturefile = "gfx/event_pictures/exp_hun_event_integrate_eastern_slovakia.dds"
+	}	
+	spriteType = {
+		name = "GFX_exp_hun_event_integrate_carpathian_ruthenia"
+		texturefile = "gfx/event_pictures/exp_hun_event_integrate_carpathian_ruthenia.dds"
+	}	
+	spriteType = {
+		name = "GFX_exp_hun_event_integrate_north_transylvania"
+		texturefile = "gfx/event_pictures/exp_hun_event_integrate_north_transylvania.dds"
+	}	
+	spriteType = {
+		name = "GFX_exp_hun_event_integrate_transylvania"
+		texturefile = "gfx/event_pictures/exp_hun_event_integrate_transylvania.dds"
+	}	
+	spriteType = {
+		name = "GFX_exp_hun_event_integrate_crisana"
+		texturefile = "gfx/event_pictures/exp_hun_event_integrate_crisana.dds"
+	}	
+	spriteType = {
+		name = "GFX_exp_hun_event_integrate_banat"
+		texturefile = "gfx/event_pictures/exp_hun_event_integrate_banat.dds"
+	}	
+	spriteType = {
+		name = "GFX_exp_hun_event_integrate_west_banat"
+		texturefile = "gfx/event_pictures/exp_hun_event_integrate_west_banat.dds"
+	}	
+	spriteType = {
+		name = "GFX_exp_hun_event_integrate_vojvodina"
+		texturefile = "gfx/event_pictures/exp_hun_event_integrate_vojvodina.dds"
+	}	
+	
+	
+	spriteType = {
+		name = "GFX_exp_ger_event_integrate_sonderjylland"
+		texturefile = "gfx/event_pictures/exp_ger_event_integrate_sonderjylland.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_ger_event_integrate_gdynia"
+		texturefile = "gfx/event_pictures/exp_ger_event_integrate_gdynia.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_ger_event_integrate_poznan"
+		texturefile = "gfx/event_pictures/exp_ger_event_integrate_poznan.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_ger_event_integrate_katowice"
+		texturefile = "gfx/event_pictures/exp_ger_event_integrate_katowice.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_ger_event_integrate_danzig"
+		texturefile = "gfx/event_pictures/exp_ger_event_integrate_danzig.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_ger_event_integrate_eupen_malmedy"
+		texturefile = "gfx/event_pictures/exp_ger_event_integrate_eupen_malmedy.dds"
+	}
+	spriteType = {
+		name = "GFX_exp_ger_event_integrate_torun"
+		texturefile = "gfx/event_pictures/exp_ger_event_integrate_torun.dds"
+	}
+
+	
+	
+	spriteType = {
+		name = "GFX_ksr_jap_event_establish_pacific_states"
+		texturefile = "gfx/event_pictures/ksr_jap_event_establish_pacific_states.dds"
+	}
+	spriteType = {
+		name = "GFX_ksr_ger_event_establish_american_reich"
+		texturefile = "gfx/event_pictures/ksr_ger_event_establish_american_reich.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ksr_event_review_american_partition_plan"
+		texturefile = "gfx/event_pictures/ksr_event_review_american_partition_plan.dds"
+	}
+	spriteType = {
+		name = "GFX_ksr_event_review_canadian_partition_plan"
+		texturefile = "gfx/event_pictures/ksr_event_review_canadian_partition_plan.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_ksr_news_event_american_partition"
+		texturefile = "gfx/event_pictures/news_event_american_partition.dds"
+	}
+}

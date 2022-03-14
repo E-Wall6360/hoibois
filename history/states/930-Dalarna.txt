@@ -1,0 +1,26 @@
+
+state={
+	id=930
+	name="STATE_930"
+	manpower=293400
+	resources={
+		steel=6
+	}
+	
+	state_category = rural
+	
+
+	history={
+		owner = SWE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SWE
+	}
+
+	provinces={
+		77 114 202 3005 3070 3191 6093 6123 6147 6207 9068 9148 9182 
+	}
+
+	local_supplies=0.0 
+}

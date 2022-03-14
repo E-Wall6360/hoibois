@@ -1,0 +1,31 @@
+
+state={
+	id=931
+	name="STATE_931"
+	manpower=259600
+	resources={
+		steel=4
+	}
+	
+	state_category = town
+	
+
+	history={
+		owner = SWE
+		victory_points = {
+			156 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = SWE
+	}
+
+	provinces={
+		49 156 3045 3148 6023 9051 9117 9173 9193 11053 11091 11197 13099
+	}
+
+	local_supplies=0.0 
+}

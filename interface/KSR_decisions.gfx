@@ -1,0 +1,34 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_decision_cat_lit_lithuanization_effort"
+		texturefile = "gfx/interface/decisions/decision_cat_lit_lithuanization_effort.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_fin_finnicization_effort"
+		texturefile = "gfx/interface/decisions/decision_cat_fin_finnicization_effort.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_hun_magyarization_effort"
+		texturefile = "gfx/interface/decisions/decision_cat_hun_magyarization_effort.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_ger_germanization_effort"
+		texturefile = "gfx/interface/decisions/decision_cat_ger_germanization_effort.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_form_peru_bolivian_confederation"
+		texturefile = "gfx/interface/decisions/decision_cat_form_peru_bolivian_confederation.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_restoration_effort"
+		texturefile = "gfx/interface/decisions/decision_cat_restoration_effort.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_jap_occupation_policies"
+		texturefile = "gfx/interface/decisions/decision_cat_jap_occupation_policies.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_form_papal_states"
+		texturefile = "gfx/interface/decisions/decision_cat_form_papal_states.dds"
+	}
+}

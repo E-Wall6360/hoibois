@@ -1,0 +1,231 @@
+LIT_lithuanization_effort_category = {
+
+	LIT_restore_vilnius_as_the_capital = {
+
+		allowed = {
+			original_tag = LIT
+		}
+		available = {
+			owns_state = 784
+			has_full_control_of_state = 784
+			784 = { is_capital = no }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			has_full_control_of_state = 784
+			784 = { is_capital = no }
+		}
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_LIT_events.2 } }
+		}
+	}
+	
+	LIT_move_temporary_capital_to_kaunas = {
+
+		allowed = {
+			original_tag = LIT
+		}
+
+		available = {
+			owns_state = 11
+			has_full_control_of_state = 11
+			11 = { is_capital = no }
+			784 = { is_capital = no }
+			NOT = { has_full_control_of_state = 784 }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			has_full_control_of_state = 11
+			11 = { is_capital = no }
+			784 = { is_capital = no }
+			NOT = { has_full_control_of_state = 784 }
+		}
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_LIT_events.8 } }
+		}
+	}
+
+	LIT_reintegrate_vilnius = {
+
+		allowed = {
+			original_tag = LIT
+		}
+		cost = 10
+		available = {
+			owns_state = 784
+			has_full_control_of_state = 784
+			NOT = { 784 = { is_core_of = LIT } }
+		}
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			NOT = { 784 = { is_core_of = LIT } }
+			has_full_control_of_state = 784
+		}
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_LIT_events.1 } }
+		}
+	}
+	
+	
+
+	LIT_reintegrate_gardinas = {
+
+		allowed = {
+			original_tag = LIT
+		}
+
+		available = {
+			owns_state = 836
+			has_full_control_of_state = 836
+			NOT = { 836 = { is_core_of = LIT } }
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			has_full_control_of_state = 836
+			NOT = { 836 = { is_core_of = LIT } }
+		}
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_LIT_events.3 } }
+		}
+	}
+
+	LIT_reintegrate_suvalkai = {
+
+		allowed = {
+			original_tag = LIT
+		}
+
+		available = {
+			owns_state = 837
+			has_full_control_of_state = 837
+			NOT = { 837 = { is_core_of = LIT } }
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			has_full_control_of_state = 837
+			NOT = { 837 = { is_core_of = LIT } }
+		}
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_LIT_events.5 } }
+		}
+	}
+
+	LIT_reintegrate_breslauja = {
+
+		allowed = {
+			original_tag = LIT
+		}
+
+		available = {
+			owns_state = 835
+			has_full_control_of_state = 835
+			NOT = { 835 = { is_core_of = LIT } }
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			has_full_control_of_state = 835
+			NOT = { 835 = { is_core_of = LIT } }
+		}
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_LIT_events.4 } }
+		}
+	}
+	
+	LIT_integrate_lithuania_minor = {
+
+		allowed = {
+			original_tag = LIT
+		}
+
+		available = {
+			owns_state = 838
+			has_full_control_of_state = 838
+			NOT = { 838 = { is_core_of = LIT } }
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			has_full_control_of_state = 838
+			NOT = { 838 = { is_core_of = LIT } }
+		}
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_LIT_events.6 } }
+		}
+	}
+	LIT_integrate_valkaviskas = {
+
+		allowed = {
+			original_tag = LIT
+		}
+
+		available = {
+			owns_state = 952
+			has_full_control_of_state = 952
+			NOT = { 952 = { is_core_of = LIT } }
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			has_full_control_of_state = 952
+			NOT = { 952 = { is_core_of = LIT } }
+		}
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_LIT_events.9 } }
+		}
+	}
+	LIT_integrate_balstoge = {
+
+		allowed = {
+			original_tag = LIT
+		}
+
+		available = {
+			owns_state = 97
+			has_full_control_of_state = 97
+			NOT = { 97 = { is_core_of = LIT } }
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			has_full_control_of_state = 97
+			NOT = { 97 = { is_core_of = LIT } }
+		}
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_LIT_events.10 } }
+		}
+	}
+
+}

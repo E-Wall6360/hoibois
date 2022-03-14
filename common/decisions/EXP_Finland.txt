@@ -1,0 +1,179 @@
+FIN_finnicization_effort_category = {
+
+	FIN_rename_leningrad = {
+
+		allowed = {
+			original_tag = FIN
+		}
+
+		available = {
+			owns_state = 195
+			has_full_control_of_state = 195
+		}
+		
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			has_full_control_of_state = 195
+			NOT = { 195 = { is_core_of = FIN } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_FIN_events.7 } }
+		}
+	}
+	FIN_integrate_muurmanni = {
+
+		allowed = {
+			original_tag = FIN
+		}
+
+		available = {
+			owns_state = 213
+			has_full_control_of_state = 213
+			NOT = { 213 = { is_core_of = FIN } }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 213
+			NOT = { 213 = { is_core_of = FIN } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_FIN_events.2 } }
+		}
+	}
+	FIN_integrate_karjala = {
+
+		allowed = {
+			original_tag = FIN
+		}
+
+		available = {
+			owns_state = 216
+			has_full_control_of_state = 216
+			NOT = { 216 = { is_core_of = FIN } }
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			has_full_control_of_state = 216
+			NOT = { 216 = { is_core_of = FIN } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_FIN_events.4 } }
+		}
+	}
+	FIN_integrate_vienan_karjala = {
+
+		allowed = {
+			original_tag = FIN
+		}
+
+		available = {
+			owns_state = 215
+			has_full_control_of_state = 215
+			NOT = { 215 = { is_core_of = FIN } }
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			has_full_control_of_state = 215
+			NOT = { 215 = { is_core_of = FIN } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_FIN_events.3 } }
+		}
+	}
+	FIN_integrate_finnmark = {
+
+		allowed = {
+			original_tag = FIN
+		}
+
+		available = {
+			owns_state = 843
+			has_full_control_of_state = 843
+			NOT = { 843 = { is_core_of = FIN } }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+		cost = 10
+		visible = {
+			has_full_control_of_state = 843
+			NOT = { 843 = { is_core_of = FIN } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_FIN_events.1 } }
+		}
+	}
+	FIN_integrate_ingria = {
+
+		allowed = {
+			original_tag = FIN
+		}
+
+		available = {
+			owns_state = 840
+			has_full_control_of_state = 840
+			NOT = { 840 = { is_core_of = FIN } }
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			has_full_control_of_state = 840
+			NOT = { 840 = { is_core_of = FIN } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_FIN_events.6 } }
+		}
+	}
+	FIN_integrate_tornedalen = {
+
+		allowed = {
+			original_tag = FIN
+		}
+
+		available = {
+			owns_state = 841
+			has_full_control_of_state = 841
+			NOT = { 841 = { is_core_of = FIN } }
+		}
+		cost = 10
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			has_full_control_of_state = 841
+			NOT = { 841 = { is_core_of = FIN } }
+		}
+		
+		complete_effect = {
+			ROOT = { country_event = { id = EXP_FIN_events.5 } }
+		}
+	}
+}

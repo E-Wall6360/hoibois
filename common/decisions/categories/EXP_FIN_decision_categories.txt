@@ -1,0 +1,18 @@
+################
+##### FIN ######
+################
+
+FIN_finnicization_effort_category = {
+	
+	icon = GFX_decision_category_generic_political_actions
+
+	picture = GFX_decision_cat_fin_finnicization_effort
+
+	allowed = {
+		original_tag = FIN
+	}
+
+	visible = {
+
+	}
+}

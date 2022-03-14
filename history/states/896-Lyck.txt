@@ -1,0 +1,26 @@
+
+state={
+	id=896
+	name="STATE_896"
+	manpower = 95370
+	state_category = pastoral
+
+	history={
+		victory_points = {
+			11386 1
+		}
+		owner = GER
+		controller = GER
+		
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		9327 11386
+	}
+
+	local_supplies=0.0
+}

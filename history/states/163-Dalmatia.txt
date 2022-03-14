@@ -1,0 +1,26 @@
+state=
+{
+	id=163
+	name="STATE_163"
+	manpower = 18357
+	
+	state_category = enclave
+	
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 3 #was: 5
+			13346 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+		start_resistance = CRO #Yugoslavia shouldn't resist occupation
+	} 
+	provinces={	
+		13346 
+	}
+
+	local_supplies=0.0 
+}

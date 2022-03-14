@@ -1,0 +1,33 @@
+
+state={
+	id=922
+	name="STATE_922"
+	manpower =698500
+	
+	
+	state_category = town
+	
+	resources={
+		aluminium=2 # was: 10
+	}
+
+	history={
+		owner = YUG
+		victory_points = {
+			6983 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = YUG
+		add_core_of = BOS
+		add_core_of = SRP
+	}
+
+	provinces={
+		606 6619 6983 9588 9591 11574
+	}
+
+	local_supplies=0.0 
+}

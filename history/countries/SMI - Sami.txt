@@ -1,0 +1,73 @@
+capital = 843
+
+set_research_slots = 2
+
+add_ideas = {
+	limited_conscription
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.12.9"
+	election_frequency = 120
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 68
+	fascism = 8
+	communism = 2
+	neutrality = 22
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.6.10"
+		election_frequency = 120
+		elections_allowed = no
+	}
+}
+
+create_country_leader = {
+	name = "Ávvu Medwik"
+	desc = ""
+	picture = "GFX_portrait_europe_generic_land_19"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Heandarat Wärnach"
+	desc = ""
+	picture = "GFX_portrait_europe_generic_land_13"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Einár Báltu"
+	desc = ""
+	picture = "GFX_Portrait_Europe_Generic_1"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Esájas Vinkel"
+	desc = ""
+	picture = "GFX_portrait_europe_generic_4"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}

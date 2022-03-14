@@ -1,0 +1,29 @@
+
+state={
+	id=899
+	name="STATE_899"
+	manpower = 381200
+	resources={
+		steel=4 # was: 110
+		aluminium=1 # was: 38
+	}
+	
+	state_category = town
+
+	history={
+		owner = SIL
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = GER
+		add_claim_by = POL
+		add_core_of = SIL
+
+	}
+
+	provinces={
+		3283 3510 9470
+	}
+
+	local_supplies=0.0 
+}

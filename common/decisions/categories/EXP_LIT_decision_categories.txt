@@ -1,0 +1,18 @@
+################
+##### LIT ######
+################
+
+LIT_lithuanization_effort_category = {
+	
+	icon = GFX_decision_category_generic_political_actions
+
+	picture = GFX_decision_cat_lit_lithuanization_effort
+
+	allowed = {
+		original_tag = LIT
+	}
+
+	visible = {
+
+	}
+}

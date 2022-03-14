@@ -1,0 +1,28 @@
+capital = 382
+
+oob = "ANZ_1936"
+
+set_research_slots = 1
+
+add_ideas = {
+	disarmed_nation
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.12.9"
+	election_frequency = 120
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1936.6.10"
+		election_frequency = 120
+		elections_allowed = no
+	}
+}

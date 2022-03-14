@@ -1,0 +1,26 @@
+
+state={
+	id=934
+	name="STATE_934"
+	manpower = 536
+	
+	
+	state_category = pastoral
+	
+	history={
+		owner = VAT
+		buildings = {
+
+		}
+		victory_points = {
+			13336 1
+		}
+		add_core_of = VAT
+	}
+
+	provinces={
+		13336
+	}
+
+	local_supplies=0.0 
+}

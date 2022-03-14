@@ -1,0 +1,27 @@
+﻿###########################
+# Silesia Events
+###########################
+
+add_namespace = lombardyvenetia
+
+# Lombardy-Venetia loses it's Austria-Hungary puppet cosmetic tag after not being a puppet of it anymore
+country_event = {
+	id = lombardyvenetia.1
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			NOT = { LMV = { is_subject_of = AUS } }
+			NOT = { LMV = { is_subject_of = HUN } }
+			NOT = { LMV = { is_subject_of = CZE } }
+		}
+		LMV = { has_cosmetic_tag = AUS_HUN_LOMBARDY_VENETIA }
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	hidden = yes
+
+	immediate = {
+		LMV = { drop_cosmetic_tag = yes }
+	}
+}

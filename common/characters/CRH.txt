@@ -1,0 +1,16 @@
+characters = {
+	CRH_john_ross_taylor = {
+		name = "John Ross Taylor" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRH/Portrait_CRH_john_ross_taylor.dds"
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

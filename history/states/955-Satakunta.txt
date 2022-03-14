@@ -1,0 +1,29 @@
+
+state={
+	id=955
+	name="STATE_955"
+	manpower = 252690
+	
+	state_category = town
+	
+	history={
+		owner = FIN
+		victory_points = {
+			3083 1 
+		}
+		buildings = {
+			infrastructure = 3
+			3083 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = FIN
+	}
+
+	provinces={
+		32 169 3009 3025 3083 3117 6066 9094 13101
+	}
+
+	local_supplies=0.0 
+}

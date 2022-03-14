@@ -1,0 +1,27 @@
+﻿###########################
+# Bosnia Events
+###########################
+
+add_namespace = bosnia
+
+# Bosnia loses it's Austria-Hungary puppet cosmetic tag after not being a puppet of it anymore
+country_event = {
+	id = bosnia.1
+	fire_only_once = yes
+	trigger = {
+		AND = {
+			NOT = { BOS = { is_subject_of = AUS } }
+			NOT = { BOS = { is_subject_of = HUN } }
+			NOT = { BOS = { is_subject_of = CZE } }
+		}
+		BOS = { has_cosmetic_tag = AUS_HUN_BOSNIA }
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	hidden = yes
+
+	immediate = {
+		BOS = { drop_cosmetic_tag = yes }
+	}
+}

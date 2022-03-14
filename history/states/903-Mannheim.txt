@@ -1,0 +1,38 @@
+state={
+	id=903
+	name="STATE_903"
+	resources={
+		aluminium=3 # was: 10.000
+	}
+
+	state_category = town
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = GER
+		set_demilitarized_zone = yes
+		
+		1936.3.7 = {
+			set_demilitarized_zone = no
+		}
+
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 1
+				industrial_complex = 1
+			}
+
+		}
+
+	}
+
+	provinces={
+		589 3530 3574 6568
+	}
+	manpower=335800
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

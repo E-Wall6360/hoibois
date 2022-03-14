@@ -1,0 +1,28 @@
+state= {
+	id=845
+	name="STATE_845"
+	manpower = 175300
+	resources={
+		aluminium=2 # was: 10
+	}
+	
+	state_category = rural
+
+	history=
+	{
+		owner = DEN
+		victory_points = {
+			11251 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = DEN
+	}
+	provinces= {
+		332 11251
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,22 @@
+state=
+{
+	id=102
+	name="STATE_102"
+	manpower = 372500
+	
+	state_category = rural
+	
+	history =
+	{
+		owner = SLV
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SLV
+	}
+	provinces={
+		596 665 3631 3654 9596
+	}
+	
+	local_supplies=0.0 
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=871
+	name="STATE_871" # Pohjanmaa
+	manpower = 59820
+	
+	state_category = rural
+	
+	history={
+		owner = FIN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = FIN
+	}
+
+	provinces={
+		82 120 158 11041 11081 
+	}
+
+	local_supplies=0.0 
+}

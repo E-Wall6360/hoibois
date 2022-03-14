@@ -1,0 +1,301 @@
+###########################
+# Lithuanian Expansionism events
+###########################
+
+add_namespace = EXP_LIT_events
+
+# Integrate Vilnius
+country_event = {
+	id = EXP_LIT_events.1
+	title = EXP_LIT_events.1.t
+	desc = EXP_LIT_events.1.d
+	picture = GFX_exp_lit_event_vilnius_returns
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_LIT_events.1.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 3320 name = "Vilnius" }
+			784 = { add_core_of = ROOT }
+			add_stability = 0.1
+		}
+		
+		hidden_effect = { 
+			784 = {
+				set_province_name = { id = 3320 name = "Vilnius" }
+				add_core_of = ROOT			
+				set_state_name = "Vilnius" 
+				remove_claim_by = ROOT
+			}
+			ROOT = { add_stability = 0.1 }
+		}		
+		
+	}
+}
+
+# Move capital to Vilnius
+country_event = {
+	id = EXP_LIT_events.2
+	title = EXP_LIT_events.2.t
+	desc = EXP_LIT_events.2.d
+	picture = GFX_exp_lit_event_move_capital_to_vilnius
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_LIT_events.2.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_capital = { state = 784 }
+		}
+		
+		hidden_effect = { 
+			set_capital = { state = 784 }
+		}		
+		
+	}
+}
+
+
+# Integrate Gardinas and Lyda
+country_event = {
+	id = EXP_LIT_events.3
+	title = EXP_LIT_events.3.t
+	desc = EXP_LIT_events.3.d
+	picture = GFX_exp_lit_event_integrate_gardinas
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_LIT_events.3.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 3393 name = "Gardinas" }
+			set_province_name = { id = 6413 name = "Lyda" }
+			836 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			add_stability = 0.03
+			set_province_name = { id = 3393 name = "Gardinas" }
+			set_province_name = { id = 6413 name = "Lyda" }
+			836 = { 
+				add_core_of = ROOT 
+				set_state_name = "Gardinas" 
+				remove_claim_by = ROOT	
+			}
+		}		
+		
+	}
+}
+
+
+# Integrate Breslauja
+country_event = {
+	id = EXP_LIT_events.4
+	title = EXP_LIT_events.4.t
+	desc = EXP_LIT_events.4.d
+	picture = GFX_exp_lit_event_integrate_breslauja
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_LIT_events.4.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 13236 name = "Breslauja" }
+			835 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			add_stability = 0.03
+			set_province_name = { id = 13236 name = "Breslauja" }
+			835 = { 
+				add_core_of = ROOT
+				set_state_name = "Breslauja" 
+				remove_claim_by = ROOT
+			}
+		}		
+		
+	}
+}
+
+
+
+# Integrate Suvalkai
+country_event = {
+	id = EXP_LIT_events.5
+	title = EXP_LIT_events.5.t
+	desc = EXP_LIT_events.5.d
+	picture = GFX_exp_lit_event_integrate_suvalkai
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_LIT_events.5.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 3254 name = "Suvalkai" }
+			837 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			add_stability = 0.03
+			set_province_name = { id = 3254 name = "Suvalkai" }
+			837 = { 
+				add_core_of = ROOT
+				set_state_name = "Suvalkai" 
+				remove_claim_by = ROOT
+			}
+		}		
+		
+	}
+}
+
+
+
+# Integrate Tilžė
+country_event = {
+	id = EXP_LIT_events.6
+	title = EXP_LIT_events.6.t
+	desc = EXP_LIT_events.6.d
+	picture = GFX_exp_lit_event_integrate_tilze
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_LIT_events.6.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 281 name = "Tilžė" }
+			838 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			set_province_name = { id = 281 name = "Tilžė" }
+			838 = { 
+				add_core_of = ROOT 
+				set_state_name = "Tilžė"
+			}
+			add_stability = 0.03
+		}		
+		
+	}
+}
+
+
+
+# Move temporary capital to Kaunas
+country_event = {
+	id = EXP_LIT_events.8
+	title = EXP_LIT_events.8.t
+	desc = EXP_LIT_events.8.d
+	picture = GFX_exp_lit_event_move_tempoary_capital_to_kaunas
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_LIT_events.8.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_capital = { state = 11 }
+		}
+		
+		hidden_effect = { 
+			set_capital = { state = 11 }
+		}		
+		
+	}
+}
+
+# Integrate Valkaviskas
+country_event = {
+	id = EXP_LIT_events.9
+	title = EXP_LIT_events.9.t
+	desc = EXP_LIT_events.9.d
+	picture = GFX_exp_lit_event_integrate_valkaviskas
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_LIT_events.9.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 318 name = "Valkaviskas" }
+			952 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			add_stability = 0.03
+			set_province_name = { id = 318 name = "Valkaviskas" }
+			952 = { 
+				add_core_of = ROOT
+				set_state_name = "Valkaviskas" 
+			}
+		}		
+		
+	}
+}
+
+# Integrate Balstogė
+country_event = {
+	id = EXP_LIT_events.10
+	title = EXP_LIT_events.10.t
+	desc = EXP_LIT_events.10.d
+	picture = GFX_exp_lit_event_integrate_balstoge
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXP_LIT_events.10.a
+		ai_chance = {
+			factor = 100
+		}
+		effect_tooltip = {
+			set_province_name = { id = 11301 name = "Balstogė" }
+			set_province_name = { id = 13341 name = "Lietuvos Brasta" }
+			97 = { add_core_of = ROOT }
+			add_stability = 0.03
+		}
+		
+		hidden_effect = { 
+			add_stability = 0.03
+			set_province_name = { id = 11301 name = "Balstogė" }
+			set_province_name = { id = 13341 name = "Lietuvos Brasta" }
+			97 = { 
+				add_core_of = ROOT
+				set_state_name = "Balstogė" 
+			}
+		}		
+		
+	}
+}

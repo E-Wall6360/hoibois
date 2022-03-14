@@ -1,0 +1,35 @@
+
+state={
+	id=912
+	name="STATE_912"
+	manpower = 215890
+	
+	state_category = town
+	
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = AUS
+
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+		}
+		1939.1.1 = {
+			buildings = {
+			
+			}
+		}
+	}
+
+	provinces={
+		732 6552 6723 3718 6739 9527 
+	}
+
+	local_supplies=0.0 
+}

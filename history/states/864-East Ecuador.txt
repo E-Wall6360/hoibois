@@ -1,0 +1,25 @@
+
+state={
+	id=864
+	name="STATE_864" #East Ecuador
+	manpower = 137950
+	
+	state_category = rural
+
+	history={
+		owner = ECU
+		add_core_of = ECU
+		add_core_of = PRU
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		8075 10888
+	}
+
+	local_supplies=0.0 
+}

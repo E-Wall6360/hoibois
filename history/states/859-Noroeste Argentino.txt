@@ -1,0 +1,23 @@
+
+state={
+	id=859
+	name="STATE_859" # Noroeste Argentino
+	manpower = 295810
+	
+	state_category = rural
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ARG
+
+	}
+
+	provinces={
+		8195 11001 2224 10944 13297
+	}
+
+	local_supplies=0.0 
+}

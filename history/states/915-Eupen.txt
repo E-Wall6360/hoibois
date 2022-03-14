@@ -1,0 +1,23 @@
+
+state={
+	id=915
+	name="STATE_915"
+	manpower = 29670
+	
+	state_category = rural
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BEL
+		add_core_of = WAL
+	}
+
+	provinces={
+		13329
+	}
+
+	local_supplies=0.0 
+}
